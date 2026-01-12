@@ -26,11 +26,11 @@ SQL – transformations and analytics models
 (Jupyter Notebook analysis coming next)
 
 # 🗂️ Data Model Overview
-## Raw Layer (raw schema)
+## Raw Layer
 
 Contains minimally transformed source data, loaded via Python scripts.
 
-## Staging Layer (stg schema)
+## Staging Layer
 
 Cleans and standardises raw data:
 
