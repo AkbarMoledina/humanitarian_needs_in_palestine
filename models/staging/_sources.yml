@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: raw         # must match the name used in the ref
+    database: dev
+    schema: raw
+    tables:
+      - name: commodity_prices_gaza
+        description: "Basic commodity prices in Gaza"
+
+      - name: malnutrition_in_gaza
+        description: "Malnutrition prevalence data from Gaza"
+
+      - name: requirements_and_funding
+        description: "Basic commodity prices in Gaza"

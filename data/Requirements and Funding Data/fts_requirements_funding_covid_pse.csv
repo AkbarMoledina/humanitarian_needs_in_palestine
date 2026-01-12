@@ -1,0 +1,6 @@
+countryCode,id,name,code,typeId,typeName,startDate,endDate,year,requirements,funding,covidFunding,covidPercentageOfFunding
+#country+code,#activity+appeal+id+fts_internal,#activity+appeal+name,#activity+appeal+id+external,#activity+appeal+type+id+fts_internal,#activity+appeal+type+name,#date+start,#date+end,#date+year,#value+funding+required+usd,#value+funding+total+usd,#value+funding+covid+usd,#value+funding+covid+pct
+PSE,1059,Occupied Palestinian Territory Humanitarian Response Plan 2022,HPSE22,4,Humanitarian response plan,2022-01-01,2022-12-31,2022,509872202,465216721,780000,0
+PSE,1012,Occupied Palestinian Territory Humanitarian Response Plan 2021,HPSE21,4,Humanitarian response plan,2021-01-01,2021-12-31,2021,417567330,376437027,60402702,16
+PSE,1049,Escalation of Hostilities in the OPT  Flash Appeal 2021,FPSE21,5,Flash appeal,2021-05-27,2021-08-27,2021,94862068,48119021,608273,1
+PSE,832,Occupied Palestinian Territory Humanitarian Response Plan 2020,HPSE20,4,Humanitarian response plan,2020-01-01,2020-12-31,2020,420381684,327419788,64284400,20

@@ -1,0 +1,1168 @@
+date,budgetYear,description,amountUSD,srcOrganization,srcOrganizationTypes,srcLocations,srcUsageYearStart,srcUsageYearEnd,destPlan,destPlanCode,destPlanId,destOrganization,destOrganizationTypes,destGlobalClusters,destLocations,destProject,destProjectCode,destEmergency,destUsageYearStart,destUsageYearEnd,contributionType,flowType,method,boundary,onBoundary,status,firstReportedDate,decisionDate,keywords,originalAmount,originalCurrency,exchangeRate,id,refCode,createdAt,updatedAt
+#date,#date+year+budget,#description+notes,#value+funding+total+usd,#org+name+funder,#org+type+funder+list,#country+iso3+funder+list,#date+year+start+funder,#date+year+end+funder,#activity+appeal+name,#activity+appeal+id+external,#activity+appeal+id+fts_internal,#org+name+impl,#org+type+impl+list,#sector+cluster+name+list,#country+iso3+impl+list,#activity+project+name,#activity+project+code,#crisis+name,#date+year+start+impl,#date+year+end+impl,#financial+contribution+type,#financial+contribution+type,#financial+method,#financial+direction,#financial+direction+type,#status+text,#date+reported,#date+decision,#description+keywords,#value+funding+total,#value+funding+total+currency,#financial+fx,#activity+id+fts_internal,#activity+code,#date+created,#date+updated
+2025-10-18,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Supporting Emergency Health Response across the Gaza Strip 2025
+Project Start Date: 2025-10-15 - Project End Date: 2026-04-14
+Project Code: CBPF-OPT-25-R-UN-37664
+Emergency Type: Conflict - Violence/clashes",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,World Health Organization,Multilateral Organizations,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-10-14,2025-10-16,,,,,364844,CBPF-OPT-25-R-UN-37664,2025-10-18,2025-10-18
+2025-10-18,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Supporting Emergency Health Response across the Gaza Strip 2025
+Project Start Date: 2025-10-15 - Project End Date: 2026-04-14
+Project Code: CBPF-OPT-25-R-UN-37664
+Emergency Type: Conflict - Violence/clashes",1000000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,World Health Organization,Multilateral Organizations,Health,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-10-14,2025-10-16,,,,,364845,CBPF-OPT-25-R-UN-37664,2025-10-18,2025-10-18
+2025-10-17,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 1: Reserve Allocation]
+Emergency Cash Assistance to Meet Life-Saving Needs of Displaced Families in Gaza
+Project Start Date: 2025-10-15 - Project End Date: 2026-06-14
+Project Code: CBPF-OPT-25-R-INGO-37615
+Emergency Type: Conflict - Displacement
+Emergency Type: Conflict - Violence/clashes",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Oxfam Novib Netherlands,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-10-14,2025-10-15,,,,,364674,CBPF-OPT-25-R-INGO-37615,2025-10-19,2025-10-20
+2025-10-17,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 1: Reserve Allocation]
+Emergency Cash Assistance to Meet Life-Saving Needs of Displaced Families in Gaza
+Project Start Date: 2025-10-15 - Project End Date: 2026-06-14
+Project Code: CBPF-OPT-25-R-INGO-37615
+Emergency Type: Conflict - Displacement
+Emergency Type: Conflict - Violence/clashes",552048,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Oxfam Novib Netherlands,NGOs,Multipurpose Cash,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-10-14,2025-10-15,,,,,364675,CBPF-OPT-25-R-INGO-37615,2025-10-19,2025-10-20
+2025-10-15,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Provision of urgent dignified shelter solutions that reduce protection risks, restore safety and improve living conditions for populations affected by
+Project Start Date: 2025-10-08 - Project End Date: 2026-10-06
+Project Code: CBPF-OPT-25-R-INGO-37674
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,CARE International,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-10-10,2025-10-13,,,,,364546,CBPF-OPT-25-R-INGO-37674,2025-10-17,2025-10-17
+2025-10-15,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Provision of urgent dignified shelter solutions that reduce protection risks, restore safety and improve living conditions for populations affected by
+Project Start Date: 2025-10-08 - Project End Date: 2026-10-06
+Project Code: CBPF-OPT-25-R-INGO-37674
+Emergency Type: Conflict - Displacement",800000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,CARE International,NGOs,Emergency Shelter and NFI,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-10-10,2025-10-13,,,,,364547,CBPF-OPT-25-R-INGO-37674,2025-10-17,2025-10-17
+2025-10-15,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Enhancing Access to Safe Water, Sanitation, and Hygiene Practices for Vulnerable communities affected by conflicts.
+Project Start Date: 2025-10-12 - Project End Date: 2026-05-11
+Project Code: CBPF-OPT-25-R-NGO-37625
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Beit Lahia  Development Association ,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-10-10,2025-10-13,,,,,364548,CBPF-OPT-25-R-NGO-37625,2025-10-15,2025-10-15
+2025-10-15,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Enhancing Access to Safe Water, Sanitation, and Hygiene Practices for Vulnerable communities affected by conflicts.
+Project Start Date: 2025-10-12 - Project End Date: 2026-05-11
+Project Code: CBPF-OPT-25-R-NGO-37625
+Emergency Type: Conflict - Displacement",250000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Beit Lahia  Development Association ,NGOs,Water Sanitation Hygiene,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-10-10,2025-10-13,,,,,364549,CBPF-OPT-25-R-NGO-37625,2025-10-15,2025-10-15
+2025-10-15,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Life-saving food, cash and livelihoods assistance to vulnerable households in Deir Al Balah and Gaza City governorates
+Project Start Date: 2025-10-13 - Project End Date: 2026-04-12
+Project Code: CBPF-OPT-25-R-NGO-37658
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Youth Vision Society,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-10-10,2025-10-13,,,,,364550,CBPF-OPT-25-R-NGO-37658,2025-10-17,2025-10-17
+2025-10-15,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Life-saving food, cash and livelihoods assistance to vulnerable households in Deir Al Balah and Gaza City governorates
+Project Start Date: 2025-10-13 - Project End Date: 2026-04-12
+Project Code: CBPF-OPT-25-R-NGO-37658
+Emergency Type: Conflict - Displacement",177000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Youth Vision Society,NGOs,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-10-10,2025-10-13,,,,,364551,CBPF-OPT-25-R-NGO-37658,2025-10-17,2025-10-17
+2025-10-15,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Life-saving food, cash and livelihoods assistance to vulnerable households in Deir Al Balah and Gaza City governorates
+Project Start Date: 2025-10-13 - Project End Date: 2026-04-12
+Project Code: CBPF-OPT-25-R-NGO-37658
+Emergency Type: Conflict - Displacement",323000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Youth Vision Society,NGOs,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-10-10,2025-10-13,,,,,364552,CBPF-OPT-25-R-NGO-37658,2025-10-17,2025-10-17
+2025-10-14,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Improved access to essential health services for the affected population in Deir el Balah.
+Project Start Date: 2025-10-06 - Project End Date: 2026-04-05
+Project Code: CBPF-OPT-25-R-INGO-37670
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,CARE International,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-10-03,2025-10-10,,,,,364147,CBPF-OPT-25-R-INGO-37670,2025-10-16,2025-10-16
+2025-10-14,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Improved access to essential health services for the affected population in Deir el Balah.
+Project Start Date: 2025-10-06 - Project End Date: 2026-04-05
+Project Code: CBPF-OPT-25-R-INGO-37670
+Emergency Type: Conflict - Displacement",500000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,CARE International,NGOs,Health,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-10-03,2025-10-10,,,,,364148,CBPF-OPT-25-R-INGO-37670,2025-10-16,2025-10-16
+2025-10-14,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Improving nutritional outcomes for households in high nutritional risk throughout Gaza
+Project Start Date: 2025-10-06 - Project End Date: 2026-04-05
+Project Code: CBPF-OPT-25-R-INGO-37673
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,CARE International,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-10-03,2025-10-10,,,,,364149,CBPF-OPT-25-R-INGO-37673,2025-10-16,2025-10-16
+2025-10-14,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Improving nutritional outcomes for households in high nutritional risk throughout Gaza
+Project Start Date: 2025-10-06 - Project End Date: 2026-04-05
+Project Code: CBPF-OPT-25-R-INGO-37673
+Emergency Type: Conflict - Displacement",500000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,CARE International,NGOs,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-10-03,2025-10-10,,,,,364150,CBPF-OPT-25-R-INGO-37673,2025-10-16,2025-10-16
+2025-10-14,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Ensuring rapid access to safe water, sanitation and hygiene services for vulnerable communities in Gaza, through water trucking, distribution of WASH
+Project Start Date: 2025-10-06 - Project End Date: 2026-04-05
+Project Code: CBPF-OPT-25-R-INGO-37675
+Emergency Type: Conflict - Violence/clashes",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,CARE International,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-10-03,2025-10-10,,,,,364151,CBPF-OPT-25-R-INGO-37675,2025-10-16,2025-10-16
+2025-10-14,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Ensuring rapid access to safe water, sanitation and hygiene services for vulnerable communities in Gaza, through water trucking, distribution of WASH
+Project Start Date: 2025-10-06 - Project End Date: 2026-04-05
+Project Code: CBPF-OPT-25-R-INGO-37675
+Emergency Type: Conflict - Violence/clashes",750000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,CARE International,NGOs,Water Sanitation Hygiene,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-10-03,2025-10-10,,,,,364152,CBPF-OPT-25-R-INGO-37675,2025-10-16,2025-10-16
+2025-10-09,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Restoring Shelter Safety and Dignity: Integrated Emergency Shelter, NFI, and Technical Support for Displaced and Returning Households in Gaza City and Khan Younis
+Project Start Date: 2025-10-08 - Project End Date: 2026-06-07
+Project Code: CBPF-OPT-25-R-NGO-37637
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Palestinian Housing Council,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-10-02,2025-10-03,,,,,363745,CBPF-OPT-25-R-NGO-37637,2025-10-12,2025-10-13
+2025-10-09,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Restoring Shelter Safety and Dignity: Integrated Emergency Shelter, NFI, and Technical Support for Displaced and Returning Households in Gaza City and Khan Younis
+Project Start Date: 2025-10-08 - Project End Date: 2026-06-07
+Project Code: CBPF-OPT-25-R-NGO-37637
+Emergency Type: Conflict - Displacement",100000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Palestinian Housing Council,NGOs,Emergency Shelter and NFI,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-10-02,2025-10-03,,,,,363746,CBPF-OPT-25-R-NGO-37637,2025-10-12,2025-10-13
+2025-10-09,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Restoring Shelter Safety and Dignity: Integrated Emergency Shelter, NFI, and Technical Support for Displaced and Returning Households in Gaza City and Khan Younis
+Project Start Date: 2025-10-08 - Project End Date: 2026-06-07
+Project Code: CBPF-OPT-25-R-NGO-37637
+Emergency Type: Conflict - Displacement",500000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Palestinian Housing Council,NGOs,Emergency Shelter and NFI,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-10-02,2025-10-03,,,,,363747,CBPF-OPT-25-R-NGO-37637,2025-10-12,2025-10-13
+2025-10-09,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Strengthening the nutritional resilience of infants, young children, pregnant and lactating women in crises situations.
+Project Start Date: 2025-10-06 - Project End Date: 2026-04-05
+Project Code: CBPF-OPT-25-R-INGO-37607
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Save the Children,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-10-02,2025-10-08,,,,,363969,CBPF-OPT-25-R-INGO-37607,2025-10-12,2025-10-13
+2025-10-09,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Strengthening the nutritional resilience of infants, young children, pregnant and lactating women in crises situations.
+Project Start Date: 2025-10-06 - Project End Date: 2026-04-05
+Project Code: CBPF-OPT-25-R-INGO-37607
+Emergency Type: Conflict - Displacement",250000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Save the Children,NGOs,Nutrition,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-10-02,2025-10-08,,,,,363970,CBPF-OPT-25-R-INGO-37607,2025-10-12,2025-10-13
+2025-10-09,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Emergency life-saving WASH services to conflict affected communities, returnees and new IDPs in the Gaza Strip.
+Project Start Date: 2025-10-09 - Project End Date: 2026-04-08
+Project Code: CBPF-OPT-25-R-INGO-37610
+Emergency Type: Conflict - Displacement
+Emergency Type: Conflict - Violence/clashes",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Oxfam Novib Netherlands,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-10-06,2025-10-08,,,,,363971,CBPF-OPT-25-R-INGO-37610,2025-10-12,2025-10-13
+2025-10-09,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Emergency life-saving WASH services to conflict affected communities, returnees and new IDPs in the Gaza Strip.
+Project Start Date: 2025-10-09 - Project End Date: 2026-04-08
+Project Code: CBPF-OPT-25-R-INGO-37610
+Emergency Type: Conflict - Displacement
+Emergency Type: Conflict - Violence/clashes",500000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Oxfam Novib Netherlands,NGOs,Water Sanitation Hygiene,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-10-06,2025-10-08,,,,,363972,CBPF-OPT-25-R-INGO-37610,2025-10-12,2025-10-13
+2025-10-09,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+48 hr Anticipatory Food Security Response for Vulnerable Households in Gaza -ESDC
+Project Start Date: 2025-10-09 - Project End Date: 2026-04-08
+Project Code: CBPF-OPT-25-R-INGO-37613
+Emergency Type: Conflict - Displacement
+Emergency Type: Conflict - Violence/clashes",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Oxfam Novib Netherlands,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-10-06,2025-10-08,,,,,363973,CBPF-OPT-25-R-INGO-37613,2025-10-12,2025-10-13
+2025-10-09,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+48 hr Anticipatory Food Security Response for Vulnerable Households in Gaza -ESDC
+Project Start Date: 2025-10-09 - Project End Date: 2026-04-08
+Project Code: CBPF-OPT-25-R-INGO-37613
+Emergency Type: Conflict - Displacement
+Emergency Type: Conflict - Violence/clashes",450000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Oxfam Novib Netherlands,NGOs,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-10-06,2025-10-08,,,,,363974,CBPF-OPT-25-R-INGO-37613,2025-10-12,2025-10-13
+2025-10-09,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+48 hr-Anticipatory Action for Food Security: Cultivating Resilience in Gaza- PARC
+Project Start Date: 2025-10-09 - Project End Date: 2026-04-08
+Project Code: CBPF-OPT-25-R-INGO-37614
+Emergency Type: Conflict - Displacement
+Emergency Type: Conflict - Violence/clashes",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Oxfam Novib Netherlands,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-10-06,2025-10-08,,,,,363975,CBPF-OPT-25-R-INGO-37614,2025-10-12,2025-10-13
+2025-10-09,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+48 hr-Anticipatory Action for Food Security: Cultivating Resilience in Gaza- PARC
+Project Start Date: 2025-10-09 - Project End Date: 2026-04-08
+Project Code: CBPF-OPT-25-R-INGO-37614
+Emergency Type: Conflict - Displacement
+Emergency Type: Conflict - Violence/clashes",450000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Oxfam Novib Netherlands,NGOs,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-10-06,2025-10-08,,,,,363976,CBPF-OPT-25-R-INGO-37614,2025-10-12,2025-10-13
+2025-10-09,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Rapid Emergency WASH Response for Displaced Households in Gaza Strip
+Project Start Date: 2025-10-06 - Project End Date: 2026-04-05
+Project Code: CBPF-OPT-25-R-INGO-37655
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Save the Children,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-10-02,2025-10-08,,,,,363977,CBPF-OPT-25-R-INGO-37655,2025-10-12,2025-10-13
+2025-10-09,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Rapid Emergency WASH Response for Displaced Households in Gaza Strip
+Project Start Date: 2025-10-06 - Project End Date: 2026-04-05
+Project Code: CBPF-OPT-25-R-INGO-37655
+Emergency Type: Conflict - Displacement",500000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Save the Children,NGOs,Water Sanitation Hygiene,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-10-02,2025-10-08,,,,,363978,CBPF-OPT-25-R-INGO-37655,2025-10-12,2025-10-13
+2025-10-09,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Urgent Multipurpose Cash Assistance for Displaced and Vulnerable Households to Meet Critical
+Needs in the Gaza Strip.
+Project Start Date: 2025-10-06 - Project End Date: 2026-04-05
+Project Code: CBPF-OPT-25-R-INGO-37657
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Save the Children,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-10-02,2025-10-08,,,,,363979,CBPF-OPT-25-R-INGO-37657,2025-10-12,2025-10-13
+2025-10-09,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Urgent Multipurpose Cash Assistance for Displaced and Vulnerable Households to Meet Critical
+Needs in the Gaza Strip.
+Project Start Date: 2025-10-06 - Project End Date: 2026-04-05
+Project Code: CBPF-OPT-25-R-INGO-37657
+Emergency Type: Conflict - Displacement",700000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Save the Children,NGOs,Multipurpose Cash,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-10-02,2025-10-08,,,,,363980,CBPF-OPT-25-R-INGO-37657,2025-10-12,2025-10-13
+2025-10-09,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Rapid Multi-Purpose Cash Transfers for Immediate Relief of Vulnerable Households Affected by Displacement in Gaza Strip
+Project Start Date: 2025-10-05 - Project End Date: 2026-04-04
+Project Code: CBPF-OPT-25-R-NGO-37611
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Agriculture Development Association,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-10-06,2025-10-08,,,,,363981,CBPF-OPT-25-R-NGO-37611,2025-10-12,2025-10-13
+2025-10-09,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Rapid Multi-Purpose Cash Transfers for Immediate Relief of Vulnerable Households Affected by Displacement in Gaza Strip
+Project Start Date: 2025-10-05 - Project End Date: 2026-04-04
+Project Code: CBPF-OPT-25-R-NGO-37611
+Emergency Type: Conflict - Displacement",505126,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,,,Multipurpose Cash,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-10-06,2025-10-08,,,,,363982,CBPF-OPT-25-R-NGO-37611,2025-10-12,2025-10-13
+2025-10-09,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Urgent Support for war affected people through providing them by food assistance and implementing small gardens initiatives
+Project Start Date: 2025-10-05 - Project End Date: 2026-04-04
+Project Code: CBPF-OPT-25-R-NGO-37624
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Union of Agricultural Work Committees,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-10-06,2025-10-08,,,,,363983,CBPF-OPT-25-R-NGO-37624,2025-10-12,2025-10-13
+2025-10-09,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Urgent Support for war affected people through providing them by food assistance and implementing small gardens initiatives
+Project Start Date: 2025-10-05 - Project End Date: 2026-04-04
+Project Code: CBPF-OPT-25-R-NGO-37624
+Emergency Type: Conflict - Displacement",399999,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Union of Agricultural Work Committees,NGOs,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-10-06,2025-10-08,,,,,363984,CBPF-OPT-25-R-NGO-37624,2025-10-12,2025-10-13
+2025-10-08,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Provision of emergency multi sectoral purpose Cash assistance to families affected by settler violence mass incidents
+Project Start Date: 2025-10-01 - Project End Date: 2026-03-31
+Project Code: CBPF-OPT-25-R-INGO-37606
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Première Urgence Internationale,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-10-02,2025-10-06,,,,,363809,CBPF-OPT-25-R-INGO-37606,2025-10-10,2025-10-10
+2025-10-08,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Provision of emergency multi sectoral purpose Cash assistance to families affected by settler violence mass incidents
+Project Start Date: 2025-10-01 - Project End Date: 2026-03-31
+Project Code: CBPF-OPT-25-R-INGO-37606
+Emergency Type: Conflict - Displacement",1,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Première Urgence Internationale,NGOs,Emergency Shelter and NFI,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-10-02,2025-10-06,,,,,363810,CBPF-OPT-25-R-INGO-37606,2025-10-10,2025-10-10
+2025-10-08,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Provision of emergency multi sectoral purpose Cash assistance to families affected by settler violence mass incidents
+Project Start Date: 2025-10-01 - Project End Date: 2026-03-31
+Project Code: CBPF-OPT-25-R-INGO-37606
+Emergency Type: Conflict - Displacement",299999,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Première Urgence Internationale,NGOs,Emergency Shelter and NFI,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-10-02,2025-10-06,,,,,363811,CBPF-OPT-25-R-INGO-37606,2025-10-10,2025-10-10
+2025-10-08,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Improving Living Conditions in Underserved Sites through Emergency Shelter Support
+Project Start Date: 2025-10-06 - Project End Date: 2026-10-04
+Project Code: CBPF-OPT-25-R-INGO-37626
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Agency for Technical Cooperation and Development,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-10-02,2025-10-06,,,,,363812,CBPF-OPT-25-R-INGO-37626,2025-10-10,2025-10-10
+2025-10-08,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Improving Living Conditions in Underserved Sites through Emergency Shelter Support
+Project Start Date: 2025-10-06 - Project End Date: 2026-10-04
+Project Code: CBPF-OPT-25-R-INGO-37626
+Emergency Type: Conflict - Displacement",800000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Agency for Technical Cooperation and Development,NGOs,Emergency Shelter and NFI,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-10-02,2025-10-06,,,,,363813,CBPF-OPT-25-R-INGO-37626,2025-10-10,2025-10-10
+2025-10-08,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Providing lifesaving and emergency assistance to vulnerable households in the West Bank, through the provision of EMPCA to meet most urgent needs.
+Project Start Date: 2025-10-01 - Project End Date: 2026-03-31
+Project Code: CBPF-OPT-25-R-INGO-37663
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Agency for Technical Cooperation and Development,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-10-02,2025-10-06,,,,,363814,CBPF-OPT-25-R-INGO-37663,2025-10-10,2025-10-10
+2025-10-08,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Providing lifesaving and emergency assistance to vulnerable households in the West Bank, through the provision of EMPCA to meet most urgent needs.
+Project Start Date: 2025-10-01 - Project End Date: 2026-03-31
+Project Code: CBPF-OPT-25-R-INGO-37663
+Emergency Type: Conflict - Displacement",700000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Agency for Technical Cooperation and Development,NGOs,Multipurpose Cash,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-10-02,2025-10-06,,,,,363815,CBPF-OPT-25-R-INGO-37663,2025-10-10,2025-10-10
+2025-10-08,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Emergency Shelter and NFI Support for Vulnerable, Displaced, and Returnee Households Affected by Gaza Conflict
+Project Start Date: 2025-10-08 - Project End Date: 2026-08-07
+Project Code: CBPF-OPT-25-R-INGO-37665
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Première Urgence Internationale,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-10-02,2025-10-06,,,,,363816,CBPF-OPT-25-R-INGO-37665,2025-10-10,2025-10-10
+2025-10-08,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Emergency Shelter and NFI Support for Vulnerable, Displaced, and Returnee Households Affected by Gaza Conflict
+Project Start Date: 2025-10-08 - Project End Date: 2026-08-07
+Project Code: CBPF-OPT-25-R-INGO-37665
+Emergency Type: Conflict - Displacement",1,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Première Urgence Internationale,NGOs,Emergency Shelter and NFI,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-10-02,2025-10-06,,,,,363817,CBPF-OPT-25-R-INGO-37665,2025-10-10,2025-10-10
+2025-10-08,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Emergency Shelter and NFI Support for Vulnerable, Displaced, and Returnee Households Affected by Gaza Conflict
+Project Start Date: 2025-10-08 - Project End Date: 2026-08-07
+Project Code: CBPF-OPT-25-R-INGO-37665
+Emergency Type: Conflict - Displacement",799999,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Première Urgence Internationale,NGOs,Emergency Shelter and NFI,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-10-02,2025-10-06,,,,,363818,CBPF-OPT-25-R-INGO-37665,2025-10-10,2025-10-10
+2025-10-08,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+48 hr Emergency Shelter and NFI Response for Displaced Populations Across High-Risk Areas of the West Bank
+Project Start Date: 2025-10-01 - Project End Date: 2026-03-31
+Project Code: CBPF-OPT-25-R-NGO-37671
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,MA’AN Development Center,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-09-30,2025-10-06,,,,,363819,CBPF-OPT-25-R-NGO-37671,2025-10-10,2025-10-10
+2025-10-08,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+48 hr Emergency Shelter and NFI Response for Displaced Populations Across High-Risk Areas of the West Bank
+Project Start Date: 2025-10-01 - Project End Date: 2026-03-31
+Project Code: CBPF-OPT-25-R-NGO-37671
+Emergency Type: Conflict - Displacement",294082,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,MA’AN Development Center,NGOs,Emergency Shelter and NFI,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-09-30,2025-10-06,,,,,363820,CBPF-OPT-25-R-NGO-37671,2025-10-10,2025-10-10
+2025-10-08,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Gaza health response
+Project Start Date: 2025-10-06 - Project End Date: 2026-07-05
+Project Code: CBPF-OPT-25-R-NGO-37697
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Palestinian Medical Relief Society,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-10-02,2025-10-06,,,,,363821,CBPF-OPT-25-R-NGO-37697,2025-10-10,2025-10-10
+2025-10-08,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Gaza health response
+Project Start Date: 2025-10-06 - Project End Date: 2026-07-05
+Project Code: CBPF-OPT-25-R-NGO-37697
+Emergency Type: Conflict - Displacement",299996,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Palestinian Medical Relief Society,NGOs,Health,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-10-02,2025-10-06,,,,,363822,CBPF-OPT-25-R-NGO-37697,2025-10-10,2025-10-10
+2025-10-06,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Emergency WASH Response for Displacement-Affected Communities in Gaza Strip
+Project Start Date: 2025-10-06 - Project End Date: 2026-04-05
+Project Code: CBPF-OPT-25-R-INGO-37639
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Acción Contra el Hambre - Spain,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-10-02,2025-10-03,,,,,363741,CBPF-OPT-25-R-INGO-37639,2025-10-08,2025-10-08
+2025-10-06,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Emergency WASH Response for Displacement-Affected Communities in Gaza Strip
+Project Start Date: 2025-10-06 - Project End Date: 2026-04-05
+Project Code: CBPF-OPT-25-R-INGO-37639
+Emergency Type: Conflict - Displacement",800000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Acción Contra el Hambre - Spain,NGOs,Water Sanitation Hygiene,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-10-02,2025-10-03,,,,,363742,CBPF-OPT-25-R-INGO-37639,2025-10-08,2025-10-08
+2025-10-06,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Emergency WASH Response for Timely Action in the West Bank – 48-Hour
+Project Start Date: 2025-10-01 - Project End Date: 2026-03-31
+Project Code: CBPF-OPT-25-R-NGO-37630
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Agriculture Development Association,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-09-29,2025-10-03,,,,,363743,CBPF-OPT-25-R-NGO-37630,2025-10-08,2025-10-08
+2025-10-06,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Emergency WASH Response for Timely Action in the West Bank – 48-Hour
+Project Start Date: 2025-10-01 - Project End Date: 2026-03-31
+Project Code: CBPF-OPT-25-R-NGO-37630
+Emergency Type: Conflict - Displacement",300000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Agriculture Development Association,NGOs,Water Sanitation Hygiene,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-09-29,2025-10-03,,,,,363744,CBPF-OPT-25-R-NGO-37630,2025-10-08,2025-10-08
+2025-10-03,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Essential medical supplies and support to patients requiring critical elective surgeries in Gaza strip.
+Project Start Date: 2025-10-07 - Project End Date: 2026-10-04
+Project Code: CBPF-OPT-25-R-INGO-37635
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Medical Aid for Palestinians,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-10-01,2025-10-02,,,,,363686,CBPF-OPT-25-R-INGO-37635,2025-10-04,2025-10-07
+2025-10-03,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Essential medical supplies and support to patients requiring critical elective surgeries in Gaza strip.
+Project Start Date: 2025-10-07 - Project End Date: 2026-10-04
+Project Code: CBPF-OPT-25-R-INGO-37635
+Emergency Type: Conflict - Displacement",600000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Medical Aid for Palestinians,NGOs,Health,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-10-01,2025-10-02,,,,,363687,CBPF-OPT-25-R-INGO-37635,2025-10-04,2025-10-07
+2025-10-03,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Emergency Food Parcel Distribution for Affected and Vulnerable Households in Khan Younis
+Project Start Date: 2025-10-08 - Project End Date: 2026-04-07
+Project Code: CBPF-OPT-25-R-NGO-37618
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Palestinian Al Nakheel Association for Progress and Development,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-10-01,2025-10-02,,,,,363688,CBPF-OPT-25-R-NGO-37618,2025-10-04,2025-10-07
+2025-10-03,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Emergency Food Parcel Distribution for Affected and Vulnerable Households in Khan Younis
+Project Start Date: 2025-10-08 - Project End Date: 2026-04-07
+Project Code: CBPF-OPT-25-R-NGO-37618
+Emergency Type: Conflict - Displacement",400000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Palestinian Al Nakheel Association for Progress and Development,NGOs,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-10-01,2025-10-02,,,,,363689,CBPF-OPT-25-R-NGO-37618,2025-10-04,2025-10-07
+2025-10-03,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Enhancing Emergency WASH Services in Khan Younis
+Project Start Date: 2025-10-08 - Project End Date: 2026-04-07
+Project Code: CBPF-OPT-25-R-NGO-37632
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Palestinian Al Nakheel Association for Progress and Development,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-10-01,2025-10-02,,,,,363690,CBPF-OPT-25-R-NGO-37632,2025-10-04,2025-10-07
+2025-10-03,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Enhancing Emergency WASH Services in Khan Younis
+Project Start Date: 2025-10-08 - Project End Date: 2026-04-07
+Project Code: CBPF-OPT-25-R-NGO-37632
+Emergency Type: Conflict - Displacement",200000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Palestinian Al Nakheel Association for Progress and Development,NGOs,Water Sanitation Hygiene,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-10-01,2025-10-02,,,,,363691,CBPF-OPT-25-R-NGO-37632,2025-10-04,2025-10-07
+2025-10-03,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Enhancing Emergency WASH Services in Khan Younis
+Project Start Date: 2025-10-08 - Project End Date: 2026-04-07
+Project Code: CBPF-OPT-25-R-NGO-37632
+Emergency Type: Conflict - Displacement",500000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Palestinian Al Nakheel Association for Progress and Development,NGOs,Water Sanitation Hygiene,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-10-01,2025-10-02,,,,,363692,CBPF-OPT-25-R-NGO-37632,2025-10-04,2025-10-07
+2025-10-03,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Providing life-saving emergency Cash Voucher Assistance (CVA) and hot meals to newly displaced households impacted by settler violence and military op
+Project Start Date: 2025-10-01 - Project End Date: 2026-03-31
+Project Code: CBPF-OPT-25-R-NGO-37636
+Emergency Type: Conflict - Violence/clashes",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Agriculture Development Association,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-10-01,2025-10-02,,,,,363693,CBPF-OPT-25-R-NGO-37636,2025-10-04,2025-10-07
+2025-10-03,2025,"Allocation Type: Reserve - Third Reserve Allocation 2025 [Track 2: 48-Hour Allocation]
+Providing life-saving emergency Cash Voucher Assistance (CVA) and hot meals to newly displaced households impacted by settler violence and military op
+Project Start Date: 2025-10-01 - Project End Date: 2026-03-31
+Project Code: CBPF-OPT-25-R-NGO-37636
+Emergency Type: Conflict - Violence/clashes",369864,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Agriculture Development Association,NGOs,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-10-01,2025-10-02,,,,,363694,CBPF-OPT-25-R-NGO-37636,2025-10-04,2025-10-07
+2025-09-11,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Emergency MPCA to Vulnerable and Crises Affected Returnee IDP Households in Gaza
+Project Start Date: 2025-03-27 - Project End Date: 2025-09-26
+Project Code: CBPF-OPT-25-R-INGO-34945
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Catholic Relief Services,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-21,2025-03-25,,,,,340008,CBPF-OPT-25-R-INGO-34945,2025-09-28,2025-10-13
+2025-09-11,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Emergency MPCA to Vulnerable and Crises Affected Returnee IDP Households in Gaza
+Project Start Date: 2025-03-27 - Project End Date: 2025-09-26
+Project Code: CBPF-OPT-25-R-INGO-34945
+Emergency Type: Conflict - Displacement",449979,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Catholic Relief Services,NGOs,Multipurpose Cash,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-03-21,2025-03-25,,,,,340009,CBPF-OPT-25-R-INGO-34945,2025-09-28,2025-10-13
+2025-08-13,2025,Family Hygiene Kit for Gaza,63846,United Nations Children's Fund,Multilateral Organizations,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,United Nations Relief and Works Agency for Palestine Refugees in the Near East,Multilateral Organizations,"Health,Nutrition",PSE,,,oPt Complex Emergency 2023-24,2025,2025,in kind,Pass through,Traditional aid,internal,single,paid,2025-07-29,2025-01-07,,,,,356910,IR25GA1,2025-08-13,2025-08-13
+2025-08-13,2025,Family Hygiene Kit for Gaza,850998,United Nations Children's Fund,Multilateral Organizations,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,United Nations Relief and Works Agency for Palestine Refugees in the Near East,Multilateral Organizations,Water Sanitation Hygiene,PSE,,,oPt Complex Emergency 2023-24,2025,2025,in kind,Pass through,Traditional aid,internal,single,paid,2025-07-29,2025-01-07,,,,,356911,IR25GA1,2025-08-13,2025-08-13
+2025-08-13,2025,Family Hygiene Kit for Gaza,147460,United Nations Children's Fund,Multilateral Organizations,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,United Nations Relief and Works Agency for Palestine Refugees in the Near East,Multilateral Organizations,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,in kind,Pass through,Traditional aid,internal,single,paid,2025-07-29,2025-01-07,,,,,356912,IR25GA1,2025-08-13,2025-08-13
+2025-08-13,2025,"Emergency Health and Nutrition
+Health and Nutrition supplies",185955,United Nations Children's Fund,Multilateral Organizations,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,United Nations Relief and Works Agency for Palestine Refugees in the Near East,Multilateral Organizations,"Health,Nutrition",PSE,,,oPt Complex Emergency 2023-24,2025,2025,in kind,Pass through,Traditional aid,internal,single,paid,2025-07-29,2025-03-24,,,,,356913,IR25G04,2025-08-13,2025-08-13
+2025-08-13,2025,"Protection
+Dignity Kits for GFO     Gaza",2636560,World Health Organization,Multilateral Organizations,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,United Nations Relief and Works Agency for Palestine Refugees in the Near East,Multilateral Organizations,Protection - Gender-Based Violence,PSE,,,oPt Complex Emergency 2023-24,2025,2025,in kind,Pass through,Traditional aid,internal,single,paid,2025-07-29,2025-03-09,,,,,356919,IR25G03,2025-08-13,2025-08-13
+2025-08-13,2025,"Food Security	
+Wheat Flour for Gaza",443429,World Food Programme,Multilateral Organizations,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,United Nations Relief and Works Agency for Palestine Refugees in the Near East,Multilateral Organizations,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,in kind,Pass through,Traditional aid,internal,single,paid,2025-07-29,2025-04-05,,,,,356920,IR25G11,2025-08-13,2025-08-13
+2025-08-13,2025,"Water, Sanitation and Hygiene
+100 KVA generators in Gaza",30000,International Development and Relief Foundation,NGOs,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,United Nations Relief and Works Agency for Palestine Refugees in the Near East,Multilateral Organizations,Water Sanitation Hygiene,PSE,,,oPt Complex Emergency 2023-24,2025,2025,in kind,Pass through,Traditional aid,internal,single,paid,2025-07-29,2025-04-09,,,,,356921,IR25G13,2025-08-13,2025-08-13
+2025-07-21,2025,"Allocation Type: Reserve - Second Reserve Allocation 2025
+Provision of Multi Purpose Cash Assistance (MPCA) for Displaced Families in Northern West Bank
+Project Start Date: 2025-04-16 - Project End Date: 2025-08-15
+Project Code: CBPF-OPT-25-R-NGO-35248
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,MA’AN Development Center,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-04-17,2025-04-23,,,,,342006,CBPF-OPT-25-R-NGO-35248,2025-08-17,2025-08-18
+2025-07-21,2025,"Allocation Type: Reserve - Second Reserve Allocation 2025
+Provision of Multi Purpose Cash Assistance (MPCA) for Displaced Families in Northern West Bank
+Project Start Date: 2025-04-16 - Project End Date: 2025-08-15
+Project Code: CBPF-OPT-25-R-NGO-35248
+Emergency Type: Conflict - Displacement",600000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,MA’AN Development Center,NGOs,Multipurpose Cash,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-04-17,2025-04-23,,,,,342007,CBPF-OPT-25-R-NGO-35248,2025-08-17,2025-08-18
+2025-07-09,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+MPCA for Vulnerable Households in the Gaza Strip - Post-Ceasefire Humanitarian Response
+Project Start Date: 2025-03-05 - Project End Date: 2025-09-04
+Project Code: CBPF-OPT-25-R-NGO-34914
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,NGO Development Center,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-04,2025-03-11,,,,,339151,CBPF-OPT-25-R-NGO-34914,2025-10-10,2025-10-10
+2025-07-09,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+MPCA for Vulnerable Households in the Gaza Strip - Post-Ceasefire Humanitarian Response
+Project Start Date: 2025-03-05 - Project End Date: 2025-09-04
+Project Code: CBPF-OPT-25-R-NGO-34914
+Emergency Type: Conflict - Displacement",600000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,NGO Development Center,NGOs,Multipurpose Cash,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-03-04,2025-03-11,,,,,339152,CBPF-OPT-25-R-NGO-34914,2025-10-10,2025-10-10
+2025-07-09,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Improve efforts to remove solid waste and site debris in Khan Younis
+Project Start Date: 2025-03-20 - Project End Date: 2025-09-19
+Project Code: CBPF-OPT-25-R-NGO-34860
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Palestinian Al Nakheel Association for Progress and Development,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-14,2025-03-18,,,,,339559,CBPF-OPT-25-R-NGO-34860,2025-09-21,2025-10-13
+2025-07-09,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Improve efforts to remove solid waste and site debris in Khan Younis
+Project Start Date: 2025-03-20 - Project End Date: 2025-09-19
+Project Code: CBPF-OPT-25-R-NGO-34860
+Emergency Type: Conflict - Displacement",251510,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Palestinian Al Nakheel Association for Progress and Development,NGOs,Water Sanitation Hygiene,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-03-14,2025-03-18,,,,,339560,CBPF-OPT-25-R-NGO-34860,2025-09-21,2025-10-13
+2025-07-09,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Improve efforts to remove solid waste and site debris in Khan Younis
+Project Start Date: 2025-03-20 - Project End Date: 2025-09-19
+Project Code: CBPF-OPT-25-R-NGO-34860
+Emergency Type: Conflict - Displacement",98434,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Palestinian Al Nakheel Association for Progress and Development,NGOs,Water Sanitation Hygiene,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-14,2025-03-18,,,,,339561,CBPF-OPT-25-R-NGO-34860,2025-09-21,2025-10-13
+2025-07-01,2025,NICU expansion in Gaza City Hospitals,4657361,United Nations Children's Fund,Multilateral Organizations,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Medical Aid for Palestinians,NGOs,Health,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Pass through,Traditional aid,internal,single,paid,2025-06-30,2025-03-20,,,,,347840,SOP/PCA2024363/SPD2025532,2025-07-01,2025-07-01
+2025-07-01,2025,Ensuring Vulnerable Communities in North Region of the West Bank have Access to Essential Health Care and Early Childhood Development Support through Mobile Clinic Services,983417,United Nations Children's Fund,Multilateral Organizations,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Medical Aid for Palestinians,NGOs,Health,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Pass through,Traditional aid,internal,single,paid,2025-06-30,2025-03-16,,2749399,ILS,2.7958,347843,SOP/PCA2024363/SPD2024484,2025-07-01,2025-07-01
+2025-07-01,2025,Provision of Integrated Lifesaving Sexual and Reproductive Health (SRH) Services for the Most Vulnerable Women and Girls Affected by Conflict and Displacement in the Gaza Strip,4001892,United Nations Population Fund,Multilateral Organizations,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Medical Aid for Palestinians,NGOs,Health,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Pass through,Traditional aid,internal,single,paid,2025-06-30,2024-12-01,Gaza,,,,347844,UNFPA Project 1,2025-07-01,2025-07-01
+2025-05-30,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Back to School – Leaving No One Behind
+Project Start Date: 2025-05-25 - Project End Date: 2026-05-24
+Project Code: CBPF-OPT-25-R-INGO-35358
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,EducAid Onlus,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-05-16,2025-05-23,,,,,344388,CBPF-OPT-25-R-INGO-35358,2025-06-04,2025-06-05
+2025-05-30,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Back to School – Leaving No One Behind
+Project Start Date: 2025-05-25 - Project End Date: 2026-05-24
+Project Code: CBPF-OPT-25-R-INGO-35358
+Emergency Type: Conflict - Displacement",499977,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,EducAid Onlus,NGOs,Education,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-05-16,2025-05-23,,,,,344389,CBPF-OPT-25-R-INGO-35358,2025-06-04,2025-06-05
+2025-05-28,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Enhancing the safety and well-being of children facing acute protection risks in Gaza
+Project Start Date: 2025-04-20 - Project End Date: 2025-11-19
+Project Code: CBPF-OPT-25-R-INGO-34887
+Emergency Type: Conflict - Displacement
+Emergency Type: Conflict - Post-conflict needs",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,International Rescue Committee,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-04-17,2025-05-12,,,,,343700,CBPF-OPT-25-R-INGO-34887,2025-05-30,2025-05-30
+2025-05-28,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Enhancing the safety and well-being of children facing acute protection risks in Gaza
+Project Start Date: 2025-04-20 - Project End Date: 2025-11-19
+Project Code: CBPF-OPT-25-R-INGO-34887
+Emergency Type: Conflict - Displacement
+Emergency Type: Conflict - Post-conflict needs",15300,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,International Rescue Committee,NGOs,Protection,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-04-17,2025-05-12,,,,,343701,CBPF-OPT-25-R-INGO-34887,2025-05-30,2025-05-30
+2025-05-28,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Enhancing the safety and well-being of children facing acute protection risks in Gaza
+Project Start Date: 2025-04-20 - Project End Date: 2025-11-19
+Project Code: CBPF-OPT-25-R-INGO-34887
+Emergency Type: Conflict - Displacement
+Emergency Type: Conflict - Post-conflict needs",284700,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,International Rescue Committee,NGOs,Protection,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-04-17,2025-05-12,,,,,343702,CBPF-OPT-25-R-INGO-34887,2025-05-30,2025-05-30
+2025-05-20,2025,"Allocation Type: Reserve - Second Reserve Allocation 2025
+Emergency Protection Response for At-Risk Families in Northern West Bank
+Project Start Date: 2025-05-01 - Project End Date: 2025-10-31
+Project Code: CBPF-OPT-25-R-NGO-35281
+Emergency Type: Conflict - Violence/clashes
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Young Men’s Christian Association,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-05-01,2025-05-16,,,,,343867,CBPF-OPT-25-R-NGO-35281,2025-05-22,2025-05-22
+2025-05-20,2025,"Allocation Type: Reserve - Second Reserve Allocation 2025
+Emergency Protection Response for At-Risk Families in Northern West Bank
+Project Start Date: 2025-05-01 - Project End Date: 2025-10-31
+Project Code: CBPF-OPT-25-R-NGO-35281
+Emergency Type: Conflict - Violence/clashes
+Emergency Type: Conflict - Displacement",174300,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Young Men’s Christian Association,NGOs,Protection,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-05-01,2025-05-16,,,,,343868,CBPF-OPT-25-R-NGO-35281,2025-05-22,2025-05-22
+2025-05-20,2025,"Allocation Type: Reserve - Second Reserve Allocation 2025
+Emergency Protection Response for At-Risk Families in Northern West Bank
+Project Start Date: 2025-05-01 - Project End Date: 2025-10-31
+Project Code: CBPF-OPT-25-R-NGO-35281
+Emergency Type: Conflict - Violence/clashes
+Emergency Type: Conflict - Displacement",75700,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Young Men’s Christian Association,NGOs,Protection,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-05-01,2025-05-16,,,,,343869,CBPF-OPT-25-R-NGO-35281,2025-05-22,2025-05-22
+2025-05-16,2025,"Allocation Type: Reserve - Second Reserve Allocation 2025
+Provision of WASH Emergency Response Assistance and Improving Preparedness of Vulnerable Communities in Northern West Bank
+Project Start Date: 2025-05-18 - Project End Date: 2025-11-17
+Project Code: CBPF-OPT-25-R-INGO-35250
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,WeWorld - Gruppo Volontariato Civile Onlus,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-05-13,2025-05-14,,,,,343778,CBPF-OPT-25-R-INGO-35250,2025-07-18,2025-07-18
+2025-05-16,2025,"Allocation Type: Reserve - Second Reserve Allocation 2025
+Provision of WASH Emergency Response Assistance and Improving Preparedness of Vulnerable Communities in Northern West Bank
+Project Start Date: 2025-05-18 - Project End Date: 2025-11-17
+Project Code: CBPF-OPT-25-R-INGO-35250
+Emergency Type: Conflict - Displacement",500000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,WeWorld - Gruppo Volontariato Civile Onlus,NGOs,Water Sanitation Hygiene,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-05-13,2025-05-14,,,,,343779,CBPF-OPT-25-R-INGO-35250,2025-07-18,2025-07-18
+2025-05-16,2025,"Allocation Type: Reserve - Second Reserve Allocation 2025
+Emergency MPCA to Vulnerable and Crisis-Affected Households in the West Bank
+Project Start Date: 2025-05-01 - Project End Date: 2025-10-31
+Project Code: CBPF-OPT-25-R-INGO-35312
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Catholic Relief Services,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-05-09,2025-05-14,,,,,343780,CBPF-OPT-25-R-INGO-35312,2025-07-13,2025-07-14
+2025-05-16,2025,"Allocation Type: Reserve - Second Reserve Allocation 2025
+Emergency MPCA to Vulnerable and Crisis-Affected Households in the West Bank
+Project Start Date: 2025-05-01 - Project End Date: 2025-10-31
+Project Code: CBPF-OPT-25-R-INGO-35312
+Emergency Type: Conflict - Displacement",757941,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Catholic Relief Services,NGOs,Multipurpose Cash,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-05-09,2025-05-14,,,,,343781,CBPF-OPT-25-R-INGO-35312,2025-07-13,2025-07-14
+2025-05-16,2025,"Allocation Type: Reserve - Second Reserve Allocation 2025
+Emergency WASH Support for Displaced Populations: Coordinated Life-Saving Interventions to Ensure Safe Water, Sanitation, and Hygiene in Northern West Bank
+Project Start Date: 2025-05-12 - Project End Date: 2025-11-11
+Project Code: CBPF-OPT-25-R-NGO-35305
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,MA’AN Development Center,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-05-13,2025-05-14,,,,,343782,CBPF-OPT-25-R-NGO-35305,2025-05-22,2025-05-22
+2025-05-16,2025,"Allocation Type: Reserve - Second Reserve Allocation 2025
+Emergency WASH Support for Displaced Populations: Coordinated Life-Saving Interventions to Ensure Safe Water, Sanitation, and Hygiene in Northern West Bank
+Project Start Date: 2025-05-12 - Project End Date: 2025-11-11
+Project Code: CBPF-OPT-25-R-NGO-35305
+Emergency Type: Conflict - Displacement",500000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,MA’AN Development Center,NGOs,Water Sanitation Hygiene,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-05-13,2025-05-14,,,,,343783,CBPF-OPT-25-R-NGO-35305,2025-05-22,2025-05-22
+2025-05-12,2025,"Allocation Type: Reserve - Second Reserve Allocation 2025
+Strengthening Emergency Healthcare Capacity in the Northern West Bank Through the Provision of Lifesaving Medical Supplies
+Project Start Date: 2025-04-27 - Project End Date: 2025-10-26
+Project Code: CBPF-OPT-25-R-INGO-35234
+Emergency Type: Conflict - Violence/clashes",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Medical Aid for Palestinians,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-04-25,2025-05-05,,,,,343125,CBPF-OPT-25-R-INGO-35234,2025-05-14,2025-05-14
+2025-05-12,2025,"Allocation Type: Reserve - Second Reserve Allocation 2025
+Strengthening Emergency Healthcare Capacity in the Northern West Bank Through the Provision of Lifesaving Medical Supplies
+Project Start Date: 2025-04-27 - Project End Date: 2025-10-26
+Project Code: CBPF-OPT-25-R-INGO-35234
+Emergency Type: Conflict - Violence/clashes",299991,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Medical Aid for Palestinians,NGOs,Health,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-04-25,2025-05-05,,,,,343126,CBPF-OPT-25-R-INGO-35234,2025-05-14,2025-05-14
+2025-05-05,2025,"Allocation Type: Reserve - Second Reserve Allocation 2025
+Emergency Food Aid in Northern West Bank Area
+Project Start Date: 2025-05-04 - Project End Date: 2025-10-03
+Project Code: CBPF-OPT-25-R-INGO-35213
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Acción Contra el Hambre - Spain,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-04-30,2025-05-01,,,,,342741,CBPF-OPT-25-R-INGO-35213,2025-10-05,2025-10-13
+2025-05-05,2025,"Allocation Type: Reserve - Second Reserve Allocation 2025
+Emergency Food Aid in Northern West Bank Area
+Project Start Date: 2025-05-04 - Project End Date: 2025-10-03
+Project Code: CBPF-OPT-25-R-INGO-35213
+Emergency Type: Conflict - Displacement",405328,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Acción Contra el Hambre - Spain,NGOs,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-04-30,2025-05-01,,,,,342742,CBPF-OPT-25-R-INGO-35213,2025-10-05,2025-10-13
+2025-05-05,2025,"Allocation Type: Reserve - Second Reserve Allocation 2025
+Emergency Food Aid in Northern West Bank Area
+Project Start Date: 2025-05-04 - Project End Date: 2025-10-03
+Project Code: CBPF-OPT-25-R-INGO-35213
+Emergency Type: Conflict - Displacement",94672,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Acción Contra el Hambre - Spain,NGOs,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-04-30,2025-05-01,,,,,342743,CBPF-OPT-25-R-INGO-35213,2025-10-05,2025-10-13
+2025-05-05,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Supporting health rehabilitation services in the Gaza Strip
+Project Start Date: 2025-05-01 - Project End Date: 2025-10-31
+Project Code: CBPF-OPT-25-R-UN-34848
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,World Health Organization,Multilateral Organizations,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-04-25,2025-05-01,,,,,342744,CBPF-OPT-25-R-UN-34848,2025-05-07,2025-05-07
+2025-05-05,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Supporting health rehabilitation services in the Gaza Strip
+Project Start Date: 2025-05-01 - Project End Date: 2025-10-31
+Project Code: CBPF-OPT-25-R-UN-34848
+Emergency Type: Conflict - Displacement",899999,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,World Health Organization,Multilateral Organizations,Health,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-04-25,2025-05-01,,,,,342745,CBPF-OPT-25-R-UN-34848,2025-05-07,2025-05-07
+2025-05-02,2025,"Allocation Type: Reserve - Second Reserve Allocation 2025
+Emergency Food Assistance in Northern West Bank: E-Vouchers and Fresh Vegetables from Small-Scale Farmers.
+Project Start Date: 2025-05-01 - Project End Date: 2025-09-30
+Project Code: CBPF-OPT-25-R-NGO-35255
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Agriculture Development Association,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-04-30,2025-04-30,,,,,342693,CBPF-OPT-25-R-NGO-35255,2025-10-02,2025-10-13
+2025-05-02,2025,"Allocation Type: Reserve - Second Reserve Allocation 2025
+Emergency Food Assistance in Northern West Bank: E-Vouchers and Fresh Vegetables from Small-Scale Farmers.
+Project Start Date: 2025-05-01 - Project End Date: 2025-09-30
+Project Code: CBPF-OPT-25-R-NGO-35255
+Emergency Type: Conflict - Displacement",328500,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Agriculture Development Association,NGOs,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-04-30,2025-04-30,,,,,342694,CBPF-OPT-25-R-NGO-35255,2025-10-02,2025-10-13
+2025-05-02,2025,"Allocation Type: Reserve - Second Reserve Allocation 2025
+Emergency Food Assistance in Northern West Bank: E-Vouchers and Fresh Vegetables from Small-Scale Farmers.
+Project Start Date: 2025-05-01 - Project End Date: 2025-09-30
+Project Code: CBPF-OPT-25-R-NGO-35255
+Emergency Type: Conflict - Displacement",171501,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Agriculture Development Association,NGOs,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-04-30,2025-04-30,,,,,342695,CBPF-OPT-25-R-NGO-35255,2025-10-02,2025-10-13
+2025-05-02,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Enhance access to essential health services for IDPs and returnees in the Gaza Strip
+Project Start Date: 2025-04-15 - Project End Date: 2025-10-14
+Project Code: CBPF-OPT-25-R-UN-34859
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,United Nations Children's Fund,Multilateral Organizations,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-04-17,2025-04-30,,,,,342696,CBPF-OPT-25-R-UN-34859,2025-05-04,2025-05-05
+2025-05-02,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Enhance access to essential health services for IDPs and returnees in the Gaza Strip
+Project Start Date: 2025-04-15 - Project End Date: 2025-10-14
+Project Code: CBPF-OPT-25-R-UN-34859
+Emergency Type: Conflict - Displacement",500000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,United Nations Children's Fund,Multilateral Organizations,Health,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-04-17,2025-04-30,,,,,342697,CBPF-OPT-25-R-UN-34859,2025-05-04,2025-05-05
+2025-05-01,2025,"Allocation Type: Reserve - Second Reserve Allocation 2025
+Emergency Shelter and Essential Non-Food Items (NFIs) Support for Displaced Households in Northern West Bank
+Project Start Date: 2025-04-29 - Project End Date: 2025-10-28
+Project Code: CBPF-OPT-25-R-INGO-35210
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Action Contre la Faim - Action Against Hunger International,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-04-25,2025-04-30,,,,,342688,CBPF-OPT-25-R-INGO-35210,2025-05-03,2025-05-05
+2025-05-01,2025,"Allocation Type: Reserve - Second Reserve Allocation 2025
+Emergency Shelter and Essential Non-Food Items (NFIs) Support for Displaced Households in Northern West Bank
+Project Start Date: 2025-04-29 - Project End Date: 2025-10-28
+Project Code: CBPF-OPT-25-R-INGO-35210
+Emergency Type: Conflict - Displacement",692507,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Action Contre la Faim - Action Against Hunger International,NGOs,Emergency Shelter and NFI,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-04-25,2025-04-30,,,,,342689,CBPF-OPT-25-R-INGO-35210,2025-05-03,2025-05-05
+2025-05-01,2025,"Allocation Type: Reserve - Second Reserve Allocation 2025
+Emergency Shelter and Essential Non-Food Items (NFIs) Support for Displaced Households in Northern West Bank
+Project Start Date: 2025-04-29 - Project End Date: 2025-10-28
+Project Code: CBPF-OPT-25-R-INGO-35210
+Emergency Type: Conflict - Displacement",207493,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Action Contre la Faim - Action Against Hunger International,NGOs,Emergency Shelter and NFI,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-04-25,2025-04-30,,,,,342690,CBPF-OPT-25-R-INGO-35210,2025-05-03,2025-05-05
+2025-05-01,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Strengthening Child Protection and Psychosocial Support for War-Affected Children, Caregivers, and Communities in Gaza Strip.
+Project Start Date: 2025-04-15 - Project End Date: 2026-04-14
+Project Code: CBPF-OPT-25-R-NGO-34936
+Emergency Type: Conflict - Post-conflict needs",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Save Youth Future Society,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-04-10,2025-04-30,,,,,342691,CBPF-OPT-25-R-NGO-34936,2025-05-03,2025-05-05
+2025-05-01,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Strengthening Child Protection and Psychosocial Support for War-Affected Children, Caregivers, and Communities in Gaza Strip.
+Project Start Date: 2025-04-15 - Project End Date: 2026-04-14
+Project Code: CBPF-OPT-25-R-NGO-34936
+Emergency Type: Conflict - Post-conflict needs",200000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Save Youth Future Society,NGOs,Protection,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-04-10,2025-04-30,,,,,342692,CBPF-OPT-25-R-NGO-34936,2025-05-03,2025-05-05
+2025-04-30,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Humanitarian Mine Action to Reduce Explosive Ordnance Risk Faced by Civilians in the Occupied Palestinian Territory
+Project Start Date: 2025-04-15 - Project End Date: 2025-10-14
+Project Code: CBPF-OPT-25-R-UN-34912
+Emergency Type: Conflict - Post-conflict needs",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,United Nations Mine Action Service,Multilateral Organizations,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-04-17,2025-04-28,,,,,342543,CBPF-OPT-25-R-UN-34912,2025-10-16,2025-10-16
+2025-04-30,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Humanitarian Mine Action to Reduce Explosive Ordnance Risk Faced by Civilians in the Occupied Palestinian Territory
+Project Start Date: 2025-04-15 - Project End Date: 2025-10-14
+Project Code: CBPF-OPT-25-R-UN-34912
+Emergency Type: Conflict - Post-conflict needs",400000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,United Nations Mine Action Service,Multilateral Organizations,Protection,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-04-17,2025-04-28,,,,,342544,CBPF-OPT-25-R-UN-34912,2025-10-16,2025-10-16
+2025-04-28,2025,"Allocation Type: Reserve - Second Reserve Allocation 2025
+Provision of Essential Non-Food Items (NFIs) and Conditional Cash for Rent Support to Displaced Populations in Northern West Bank
+Project Start Date: 2025-04-12 - Project End Date: 2025-09-11
+Project Code: CBPF-OPT-25-R-NGO-35251
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,MA’AN Development Center,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-04-17,2025-04-23,,,,,342008,CBPF-OPT-25-R-NGO-35251,2025-09-13,2025-09-16
+2025-04-28,2025,"Allocation Type: Reserve - Second Reserve Allocation 2025
+Provision of Essential Non-Food Items (NFIs) and Conditional Cash for Rent Support to Displaced Populations in Northern West Bank
+Project Start Date: 2025-04-12 - Project End Date: 2025-09-11
+Project Code: CBPF-OPT-25-R-NGO-35251
+Emergency Type: Conflict - Displacement",124230,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,MA’AN Development Center,NGOs,Emergency Shelter and NFI,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-04-17,2025-04-23,,,,,342009,CBPF-OPT-25-R-NGO-35251,2025-09-13,2025-09-16
+2025-04-28,2025,"Allocation Type: Reserve - Second Reserve Allocation 2025
+Provision of Essential Non-Food Items (NFIs) and Conditional Cash for Rent Support to Displaced Populations in Northern West Bank
+Project Start Date: 2025-04-12 - Project End Date: 2025-09-11
+Project Code: CBPF-OPT-25-R-NGO-35251
+Emergency Type: Conflict - Displacement",175770,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,MA’AN Development Center,NGOs,Emergency Shelter and NFI,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-04-17,2025-04-23,,,,,342010,CBPF-OPT-25-R-NGO-35251,2025-09-13,2025-09-16
+2025-04-21,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Lifesaving Protection for War-Affected Populations and Humanitarian Workers in Gaza through Specialized Humanitarian Mine Action Services and Psycho-Social Support
+Project Start Date: 2025-04-06 - Project End Date: 2025-10-05
+Project Code: CBPF-OPT-25-R-INGO-34932
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Handicap International - Humanity & Inclusion,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-04-08,2025-04-15,,,,,341381,CBPF-OPT-25-R-INGO-34932,2025-04-23,2025-04-23
+2025-04-21,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Lifesaving Protection for War-Affected Populations and Humanitarian Workers in Gaza through Specialized Humanitarian Mine Action Services and Psycho-Social Support
+Project Start Date: 2025-04-06 - Project End Date: 2025-10-05
+Project Code: CBPF-OPT-25-R-INGO-34932
+Emergency Type: Conflict - Displacement",400000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Handicap International - Humanity & Inclusion,NGOs,Protection,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-04-08,2025-04-15,,,,,341382,CBPF-OPT-25-R-INGO-34932,2025-04-23,2025-04-23
+2025-04-17,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Emergency Response to Solid Waste Management in Gaza Strip
+Project Start Date: 2025-03-31 - Project End Date: 2025-09-29
+Project Code: CBPF-OPT-25-R-UN-34938
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,United Nations Development Programme,Multilateral Organizations,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-04-02,2025-04-14,,,,,341276,CBPF-OPT-25-R-UN-34938,2025-04-19,2025-04-21
+2025-04-17,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Emergency Response to Solid Waste Management in Gaza Strip
+Project Start Date: 2025-03-31 - Project End Date: 2025-09-29
+Project Code: CBPF-OPT-25-R-UN-34938
+Emergency Type: Conflict - Displacement",499649,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,United Nations Development Programme,Multilateral Organizations,Water Sanitation Hygiene,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-04-02,2025-04-14,,,,,341277,CBPF-OPT-25-R-UN-34938,2025-04-19,2025-04-21
+2025-04-17,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Development Initiative for Organized Cultivation and Agricultural Needs Enhancement
+Project Start Date: 2025-04-06 - Project End Date: 2025-12-05
+Project Code: CBPF-OPT-25-R-INGO-34840
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Acción Contra el Hambre - Spain,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-04-08,2025-04-15,,,,,341378,CBPF-OPT-25-R-INGO-34840,2025-04-19,2025-04-21
+2025-04-17,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Development Initiative for Organized Cultivation and Agricultural Needs Enhancement
+Project Start Date: 2025-04-06 - Project End Date: 2025-12-05
+Project Code: CBPF-OPT-25-R-INGO-34840
+Emergency Type: Conflict - Displacement",283000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Acción Contra el Hambre - Spain,NGOs,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-04-08,2025-04-15,,,,,341379,CBPF-OPT-25-R-INGO-34840,2025-04-19,2025-04-21
+2025-04-17,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Development Initiative for Organized Cultivation and Agricultural Needs Enhancement
+Project Start Date: 2025-04-06 - Project End Date: 2025-12-05
+Project Code: CBPF-OPT-25-R-INGO-34840
+Emergency Type: Conflict - Displacement",367000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Acción Contra el Hambre - Spain,NGOs,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-04-08,2025-04-15,,,,,341380,CBPF-OPT-25-R-INGO-34840,2025-04-19,2025-04-21
+2025-04-17,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Inclusive Protection Awareness Community Lead Initiatives
+Project Start Date: 2025-04-01 - Project End Date: 2025-09-30
+Project Code: CBPF-OPT-25-R-NGO-34951
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Atfaluna Society for Deaf Children,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-27,2025-04-15,,,,,341383,CBPF-OPT-25-R-NGO-34951,2025-04-19,2025-04-21
+2025-04-17,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Inclusive Protection Awareness Community Lead Initiatives
+Project Start Date: 2025-04-01 - Project End Date: 2025-09-30
+Project Code: CBPF-OPT-25-R-NGO-34951
+Emergency Type: Conflict - Displacement",199952,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Atfaluna Society for Deaf Children,NGOs,Protection,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-27,2025-04-15,,,,,341384,CBPF-OPT-25-R-NGO-34951,2025-04-19,2025-04-21
+2025-04-16,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Supporting Greenhouse Farmers in the Gaza Strip Through Livelihood Restoration and Labor Assistance.
+Project Start Date: 2025-04-10 - Project End Date: 2025-12-09
+Project Code: CBPF-OPT-25-R-INGO-34870
+Emergency Type: Conflict - Post-conflict needs",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Première Urgence Internationale,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-04-02,2025-04-11,,,,,341062,CBPF-OPT-25-R-INGO-34870,2025-04-18,2025-04-18
+2025-04-16,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Supporting Greenhouse Farmers in the Gaza Strip Through Livelihood Restoration and Labor Assistance.
+Project Start Date: 2025-04-10 - Project End Date: 2025-12-09
+Project Code: CBPF-OPT-25-R-INGO-34870
+Emergency Type: Conflict - Post-conflict needs",140000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Première Urgence Internationale,NGOs,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-04-02,2025-04-11,,,,,341063,CBPF-OPT-25-R-INGO-34870,2025-04-18,2025-04-18
+2025-04-16,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Supporting Greenhouse Farmers in the Gaza Strip Through Livelihood Restoration and Labor Assistance.
+Project Start Date: 2025-04-10 - Project End Date: 2025-12-09
+Project Code: CBPF-OPT-25-R-INGO-34870
+Emergency Type: Conflict - Post-conflict needs",209500,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Première Urgence Internationale,NGOs,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-04-02,2025-04-11,,,,,341064,CBPF-OPT-25-R-INGO-34870,2025-04-18,2025-04-18
+2025-04-14,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Lifesaving MPCA to Support Basic Needs of Vulnerable and Displaced Families in Gaza Strip
+Project Start Date: 2025-04-01 - Project End Date: 2025-09-30
+Project Code: CBPF-OPT-25-R-INGO-34864
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Première Urgence Internationale,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-04-02,2025-04-09,,,,,340899,CBPF-OPT-25-R-INGO-34864,2025-04-16,2025-04-16
+2025-04-14,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Lifesaving MPCA to Support Basic Needs of Vulnerable and Displaced Families in Gaza Strip
+Project Start Date: 2025-04-01 - Project End Date: 2025-09-30
+Project Code: CBPF-OPT-25-R-INGO-34864
+Emergency Type: Conflict - Displacement",400000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Première Urgence Internationale,NGOs,Multipurpose Cash,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-04-02,2025-04-09,,,,,340900,CBPF-OPT-25-R-INGO-34864,2025-04-16,2025-04-16
+2025-04-14,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Emergency WASH Services for Displaced and Returnee Populations in the Gaza Strip.
+Project Start Date: 2025-04-10 - Project End Date: 2025-10-09
+Project Code: CBPF-OPT-25-R-INGO-34871
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Première Urgence Internationale,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-04-02,2025-04-11,,,,,341065,CBPF-OPT-25-R-INGO-34871,2025-04-16,2025-04-16
+2025-04-14,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Emergency WASH Services for Displaced and Returnee Populations in the Gaza Strip.
+Project Start Date: 2025-04-10 - Project End Date: 2025-10-09
+Project Code: CBPF-OPT-25-R-INGO-34871
+Emergency Type: Conflict - Displacement",400000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Première Urgence Internationale,NGOs,Water Sanitation Hygiene,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-04-02,2025-04-11,,,,,341066,CBPF-OPT-25-R-INGO-34871,2025-04-16,2025-04-16
+2025-04-14,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Enhancing Access to safe Water and Hygiene practices for Vulnerable Populations in Gaza.
+Project Start Date: 2025-04-01 - Project End Date: 2025-09-30
+Project Code: CBPF-OPT-25-R-INGO-34898
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Save the Children,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-04-02,2025-04-11,,,,,341067,CBPF-OPT-25-R-INGO-34898,2025-04-16,2025-04-16
+2025-04-14,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Enhancing Access to safe Water and Hygiene practices for Vulnerable Populations in Gaza.
+Project Start Date: 2025-04-01 - Project End Date: 2025-09-30
+Project Code: CBPF-OPT-25-R-INGO-34898
+Emergency Type: Conflict - Displacement",350000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Save the Children,NGOs,Water Sanitation Hygiene,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-04-02,2025-04-11,,,,,341068,CBPF-OPT-25-R-INGO-34898,2025-04-16,2025-04-16
+2025-04-14,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Emergency Child Protection and Mental Health and Psychosocial Support (MHPSS) responses for girls, boys and families in most acute need including children with existing and newly acquired disabilities
+Project Start Date: 2025-04-01 - Project End Date: 2026-03-31
+Project Code: CBPF-OPT-25-R-INGO-34959
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Save the Children,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-27,2025-04-11,,,,,341069,CBPF-OPT-25-R-INGO-34959,2025-04-16,2025-04-16
+2025-04-14,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Emergency Child Protection and Mental Health and Psychosocial Support (MHPSS) responses for girls, boys and families in most acute need including children with existing and newly acquired disabilities
+Project Start Date: 2025-04-01 - Project End Date: 2026-03-31
+Project Code: CBPF-OPT-25-R-INGO-34959
+Emergency Type: Conflict - Displacement",48510,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Save the Children,NGOs,Protection,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-03-27,2025-04-11,,,,,341070,CBPF-OPT-25-R-INGO-34959,2025-04-16,2025-04-16
+2025-04-14,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Emergency Child Protection and Mental Health and Psychosocial Support (MHPSS) responses for girls, boys and families in most acute need including children with existing and newly acquired disabilities
+Project Start Date: 2025-04-01 - Project End Date: 2026-03-31
+Project Code: CBPF-OPT-25-R-INGO-34959
+Emergency Type: Conflict - Displacement",301490,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Save the Children,NGOs,Protection,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-27,2025-04-11,,,,,341071,CBPF-OPT-25-R-INGO-34959,2025-04-16,2025-04-16
+2025-04-09,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Provision of life-saving WASH supplies and services to children and their families affected by the crisis in the Gaza Strip
+Project Start Date: 2025-04-02 - Project End Date: 2026-04-01
+Project Code: CBPF-OPT-25-R-UN-34958
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,United Nations Children's Fund,Multilateral Organizations,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-04-02,2025-04-03,,,,,340303,CBPF-OPT-25-R-UN-34958,2025-04-11,2025-04-11
+2025-04-09,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Provision of life-saving WASH supplies and services to children and their families affected by the crisis in the Gaza Strip
+Project Start Date: 2025-04-02 - Project End Date: 2026-04-01
+Project Code: CBPF-OPT-25-R-UN-34958
+Emergency Type: Conflict - Displacement",500000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,United Nations Children's Fund,Multilateral Organizations,Water Sanitation Hygiene,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-04-02,2025-04-03,,,,,340304,CBPF-OPT-25-R-UN-34958,2025-04-11,2025-04-11
+2025-04-09,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Specialised Protection Response in the Gaza Strip
+Project Start Date: 2025-03-28 - Project End Date: 2025-09-27
+Project Code: CBPF-OPT-25-R-INGO-34856
+Emergency Type: Conflict - Displacement
+Emergency Type: Conflict - Post-conflict needs",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,ACT Alliance / DanChurchAid,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-21,2025-04-07,,,,,340474,CBPF-OPT-25-R-INGO-34856,2025-04-11,2025-04-11
+2025-04-09,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Specialised Protection Response in the Gaza Strip
+Project Start Date: 2025-03-28 - Project End Date: 2025-09-27
+Project Code: CBPF-OPT-25-R-INGO-34856
+Emergency Type: Conflict - Displacement
+Emergency Type: Conflict - Post-conflict needs",250000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,ACT Alliance / DanChurchAid,NGOs,Protection,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-21,2025-04-07,,,,,340475,CBPF-OPT-25-R-INGO-34856,2025-04-11,2025-04-11
+2025-04-09,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Enhancing Protection, Resilience, and Humanitarian Response for Vulnerable Individuals Affected by Displacement and Violence in Gaza Strip
+Project Start Date: 2025-04-01 - Project End Date: 2025-09-30
+Project Code: CBPF-OPT-25-R-NGO-34921
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,AISHA Association for Woman and Child Protection,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-04-02,2025-04-07,,,,,340476,CBPF-OPT-25-R-NGO-34921,2025-04-11,2025-04-11
+2025-04-09,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Enhancing Protection, Resilience, and Humanitarian Response for Vulnerable Individuals Affected by Displacement and Violence in Gaza Strip
+Project Start Date: 2025-04-01 - Project End Date: 2025-09-30
+Project Code: CBPF-OPT-25-R-NGO-34921
+Emergency Type: Conflict - Displacement",300000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,AISHA Association for Woman and Child Protection,NGOs,Protection,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-04-02,2025-04-07,,,,,340477,CBPF-OPT-25-R-NGO-34921,2025-04-11,2025-04-11
+2025-04-09,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Integrated Agricultural Recovery and Food Security for Vulnerable Households in Gaza Strip
+Project Start Date: 2025-03-27 - Project End Date: 2025-09-26
+Project Code: CBPF-OPT-25-R-NGO-34940
+Emergency Type: Conflict - Post-conflict needs",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Agriculture Development Association,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-21,2025-04-07,,,,,340478,CBPF-OPT-25-R-NGO-34940,2025-04-11,2025-04-11
+2025-04-09,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Integrated Agricultural Recovery and Food Security for Vulnerable Households in Gaza Strip
+Project Start Date: 2025-03-27 - Project End Date: 2025-09-26
+Project Code: CBPF-OPT-25-R-NGO-34940
+Emergency Type: Conflict - Post-conflict needs",700002,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Agriculture Development Association,NGOs,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-21,2025-04-07,,,,,340479,CBPF-OPT-25-R-NGO-34940,2025-04-11,2025-04-11
+2025-04-09,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Enhancing Safe and Dignified WASH Services in IDP Shelters in Gaza Strip
+Project Start Date: 2025-03-25 - Project End Date: 2025-09-24
+Project Code: CBPF-OPT-25-R-NGO-34941
+Emergency Type: Conflict - Post-conflict needs",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Agriculture Development Association,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-21,2025-04-07,,,,,340480,CBPF-OPT-25-R-NGO-34941,2025-04-11,2025-04-11
+2025-04-09,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Enhancing Safe and Dignified WASH Services in IDP Shelters in Gaza Strip
+Project Start Date: 2025-03-25 - Project End Date: 2025-09-24
+Project Code: CBPF-OPT-25-R-NGO-34941
+Emergency Type: Conflict - Post-conflict needs",399994,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Agriculture Development Association,NGOs,Water Sanitation Hygiene,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-21,2025-04-07,,,,,340481,CBPF-OPT-25-R-NGO-34941,2025-04-11,2025-04-11
+2025-04-04,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Emergency Shelter and NFI Support for Vulnerable, Displaced, and Returnee households Affected by the conflict in Gaza.
+Project Start Date: 2025-04-01 - Project End Date: 2025-12-31
+Project Code: CBPF-OPT-25-R-INGO-34872
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Première Urgence Internationale,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-27,2025-04-02,,,,,340271,CBPF-OPT-25-R-INGO-34872,2025-10-19,2025-10-20
+2025-04-04,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Emergency Shelter and NFI Support for Vulnerable, Displaced, and Returnee households Affected by the conflict in Gaza.
+Project Start Date: 2025-04-01 - Project End Date: 2025-12-31
+Project Code: CBPF-OPT-25-R-INGO-34872
+Emergency Type: Conflict - Displacement",1000000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Première Urgence Internationale,NGOs,Emergency Shelter and NFI,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-27,2025-04-02,,,,,340272,CBPF-OPT-25-R-INGO-34872,2025-10-19,2025-10-20
+2025-04-03,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Emergency rehabilitation of agricultural productive assets of farmers affected by the 7 October 2023 crisis in the Gaza Strip
+Project Start Date: 2025-04-01 - Project End Date: 2025-11-30
+Project Code: CBPF-OPT-25-R-INGO-34835
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Agency for Technical Cooperation and Development,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-26,2025-04-01,,,,,340216,CBPF-OPT-25-R-INGO-34835,2025-04-05,2025-04-07
+2025-04-03,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Emergency rehabilitation of agricultural productive assets of farmers affected by the 7 October 2023 crisis in the Gaza Strip
+Project Start Date: 2025-04-01 - Project End Date: 2025-11-30
+Project Code: CBPF-OPT-25-R-INGO-34835
+Emergency Type: Conflict - Displacement",237020,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Agency for Technical Cooperation and Development,NGOs,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-03-26,2025-04-01,,,,,340217,CBPF-OPT-25-R-INGO-34835,2025-04-05,2025-04-07
+2025-04-03,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Emergency rehabilitation of agricultural productive assets of farmers affected by the 7 October 2023 crisis in the Gaza Strip
+Project Start Date: 2025-04-01 - Project End Date: 2025-11-30
+Project Code: CBPF-OPT-25-R-INGO-34835
+Emergency Type: Conflict - Displacement",162980,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Agency for Technical Cooperation and Development,NGOs,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-26,2025-04-01,,,,,340218,CBPF-OPT-25-R-INGO-34835,2025-04-05,2025-04-07
+2025-04-03,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Support agriculture-based livelihoods and farming HHs to revive production of fresh produce in the GS
+Project Start Date: 2025-04-06 - Project End Date: 2025-12-05
+Project Code: CBPF-OPT-25-R-INGO-34838
+Emergency Type: Conflict - Displacement
+Emergency Type: Conflict - Post-conflict needs",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Oxfam,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-26,2025-04-01,,,,,340219,CBPF-OPT-25-R-INGO-34838,2025-10-19,2025-10-20
+2025-04-03,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Support agriculture-based livelihoods and farming HHs to revive production of fresh produce in the GS
+Project Start Date: 2025-04-06 - Project End Date: 2025-12-05
+Project Code: CBPF-OPT-25-R-INGO-34838
+Emergency Type: Conflict - Displacement
+Emergency Type: Conflict - Post-conflict needs",30000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Oxfam,NGOs,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-03-26,2025-04-01,,,,,340220,CBPF-OPT-25-R-INGO-34838,2025-10-19,2025-10-20
+2025-04-03,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Support agriculture-based livelihoods and farming HHs to revive production of fresh produce in the GS
+Project Start Date: 2025-04-06 - Project End Date: 2025-12-05
+Project Code: CBPF-OPT-25-R-INGO-34838
+Emergency Type: Conflict - Displacement
+Emergency Type: Conflict - Post-conflict needs",320000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Oxfam,NGOs,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-26,2025-04-01,,,,,340221,CBPF-OPT-25-R-INGO-34838,2025-10-19,2025-10-20
+2025-04-03,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Provision of essential and weather appropriate shelter and household items for vulnerable households affected by the ongoing crisis in the Gaza strip
+Project Start Date: 2025-04-01 - Project End Date: 2025-12-31
+Project Code: CBPF-OPT-25-R-INGO-34839
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Agency for Technical Cooperation and Development,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-26,2025-04-01,,,,,340222,CBPF-OPT-25-R-INGO-34839,2025-04-05,2025-04-07
+2025-04-03,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Provision of essential and weather appropriate shelter and household items for vulnerable households affected by the ongoing crisis in the Gaza strip
+Project Start Date: 2025-04-01 - Project End Date: 2025-12-31
+Project Code: CBPF-OPT-25-R-INGO-34839
+Emergency Type: Conflict - Displacement",70000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Agency for Technical Cooperation and Development,NGOs,Emergency Shelter and NFI,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-03-26,2025-04-01,,,,,340223,CBPF-OPT-25-R-INGO-34839,2025-04-05,2025-04-07
+2025-04-03,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Provision of essential and weather appropriate shelter and household items for vulnerable households affected by the ongoing crisis in the Gaza strip
+Project Start Date: 2025-04-01 - Project End Date: 2025-12-31
+Project Code: CBPF-OPT-25-R-INGO-34839
+Emergency Type: Conflict - Displacement",930000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Agency for Technical Cooperation and Development,NGOs,Emergency Shelter and NFI,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-26,2025-04-01,,,,,340224,CBPF-OPT-25-R-INGO-34839,2025-04-05,2025-04-07
+2025-04-03,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Provision of legal protection services for vulnerable displaced population in Gaza
+Project Start Date: 2025-04-02 - Project End Date: 2025-10-01
+Project Code: CBPF-OPT-25-R-INGO-34845
+Emergency Type: Conflict - Post-conflict needs",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Norwegian Refugee Council,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-26,2025-04-01,,,,,340225,CBPF-OPT-25-R-INGO-34845,2025-04-05,2025-04-07
+2025-04-03,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Provision of legal protection services for vulnerable displaced population in Gaza
+Project Start Date: 2025-04-02 - Project End Date: 2025-10-01
+Project Code: CBPF-OPT-25-R-INGO-34845
+Emergency Type: Conflict - Post-conflict needs",25075,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Norwegian Refugee Council,NGOs,Protection,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-03-26,2025-04-01,,,,,340226,CBPF-OPT-25-R-INGO-34845,2025-04-05,2025-04-07
+2025-04-03,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Provision of legal protection services for vulnerable displaced population in Gaza
+Project Start Date: 2025-04-02 - Project End Date: 2025-10-01
+Project Code: CBPF-OPT-25-R-INGO-34845
+Emergency Type: Conflict - Post-conflict needs",224925,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Norwegian Refugee Council,NGOs,Protection,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-26,2025-04-01,,,,,340227,CBPF-OPT-25-R-INGO-34845,2025-04-05,2025-04-07
+2025-04-03,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Enhancing safety, resilience and wellbeing for conflict-affected Children in Gaza Strip
+Project Start Date: 2025-04-01 - Project End Date: 2026-01-31
+Project Code: CBPF-OPT-25-R-NGO-34939
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,MA’AN Development Center,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-27,2025-04-01,,,,,340228,CBPF-OPT-25-R-NGO-34939,2025-04-05,2025-04-07
+2025-04-03,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Enhancing safety, resilience and wellbeing for conflict-affected Children in Gaza Strip
+Project Start Date: 2025-04-01 - Project End Date: 2026-01-31
+Project Code: CBPF-OPT-25-R-NGO-34939
+Emergency Type: Conflict - Displacement",300000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,MA’AN Development Center,NGOs,Protection,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-27,2025-04-01,,,,,340229,CBPF-OPT-25-R-NGO-34939,2025-04-05,2025-04-07
+2025-04-02,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Emergency response to provide access to comprehensive WASH services in North Gaza
+Project Start Date: 2025-04-01 - Project End Date: 2025-09-30
+Project Code: CBPF-OPT-25-R-INGO-34844
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Acción Contra el Hambre - Spain,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-26,2025-03-27,,,,,340184,CBPF-OPT-25-R-INGO-34844,2025-04-04,2025-04-04
+2025-04-02,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Emergency response to provide access to comprehensive WASH services in North Gaza
+Project Start Date: 2025-04-01 - Project End Date: 2025-09-30
+Project Code: CBPF-OPT-25-R-INGO-34844
+Emergency Type: Conflict - Displacement",400000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Acción Contra el Hambre - Spain,NGOs,Water Sanitation Hygiene,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-26,2025-03-27,,,,,340185,CBPF-OPT-25-R-INGO-34844,2025-04-04,2025-04-04
+2025-04-02,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Support for agriculture and Livelihoods in the North of the Gaza Strip (Seeds of Hope)
+Project Start Date: 2025-03-15 - Project End Date: 2025-11-14
+Project Code: CBPF-OPT-25-R-INGO-34935
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Save the Children,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-12,2025-03-27,,,,,340186,CBPF-OPT-25-R-INGO-34935,2025-04-04,2025-04-04
+2025-04-02,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Support for agriculture and Livelihoods in the North of the Gaza Strip (Seeds of Hope)
+Project Start Date: 2025-03-15 - Project End Date: 2025-11-14
+Project Code: CBPF-OPT-25-R-INGO-34935
+Emergency Type: Conflict - Displacement",29250,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Save the Children,NGOs,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-03-12,2025-03-27,,,,,340187,CBPF-OPT-25-R-INGO-34935,2025-04-04,2025-04-04
+2025-04-02,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Support for agriculture and Livelihoods in the North of the Gaza Strip (Seeds of Hope)
+Project Start Date: 2025-03-15 - Project End Date: 2025-11-14
+Project Code: CBPF-OPT-25-R-INGO-34935
+Emergency Type: Conflict - Displacement",370750,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Save the Children,NGOs,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-12,2025-03-27,,,,,340188,CBPF-OPT-25-R-INGO-34935,2025-04-04,2025-04-04
+2025-04-02,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Enhancing accessibility to safe, dignified, inclusive and specialized protection services and MHPSS response to most acute needs of women and girls GBV survivors in Gaza Strip
+Project Start Date: 2025-04-01 - Project End Date: 2026-02-28
+Project Code: CBPF-OPT-25-R-NGO-34895
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Women's Affairs Center,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-26,2025-03-27,,,,,340189,CBPF-OPT-25-R-NGO-34895,2025-04-04,2025-04-04
+2025-04-02,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Enhancing accessibility to safe, dignified, inclusive and specialized protection services and MHPSS response to most acute needs of women and girls GBV survivors in Gaza Strip
+Project Start Date: 2025-04-01 - Project End Date: 2026-02-28
+Project Code: CBPF-OPT-25-R-NGO-34895
+Emergency Type: Conflict - Displacement",28250,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Women's Affairs Center,NGOs,Protection,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-03-26,2025-03-27,,,,,340190,CBPF-OPT-25-R-NGO-34895,2025-04-04,2025-04-04
+2025-04-02,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Enhancing accessibility to safe, dignified, inclusive and specialized protection services and MHPSS response to most acute needs of women and girls GBV survivors in Gaza Strip
+Project Start Date: 2025-04-01 - Project End Date: 2026-02-28
+Project Code: CBPF-OPT-25-R-NGO-34895
+Emergency Type: Conflict - Displacement",221750,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Women's Affairs Center,NGOs,Protection,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-26,2025-03-27,,,,,340191,CBPF-OPT-25-R-NGO-34895,2025-04-04,2025-04-04
+2025-04-02,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Restoring Food Production and Agricultural Livelihoods in Gaza
+Project Start Date: 2025-04-01 - Project End Date: 2025-11-30
+Project Code: CBPF-OPT-25-R-NGO-34913
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,MA’AN Development Center,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-26,2025-03-27,,,,,340192,CBPF-OPT-25-R-NGO-34913,2025-04-04,2025-04-04
+2025-04-02,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Restoring Food Production and Agricultural Livelihoods in Gaza
+Project Start Date: 2025-04-01 - Project End Date: 2025-11-30
+Project Code: CBPF-OPT-25-R-NGO-34913
+Emergency Type: Conflict - Displacement",71250,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,MA’AN Development Center,NGOs,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-03-26,2025-03-27,,,,,340193,CBPF-OPT-25-R-NGO-34913,2025-04-04,2025-04-04
+2025-04-02,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Restoring Food Production and Agricultural Livelihoods in Gaza
+Project Start Date: 2025-04-01 - Project End Date: 2025-11-30
+Project Code: CBPF-OPT-25-R-NGO-34913
+Emergency Type: Conflict - Displacement",328750,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,MA’AN Development Center,NGOs,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-26,2025-03-27,,,,,340194,CBPF-OPT-25-R-NGO-34913,2025-04-04,2025-04-04
+2025-04-01,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Improve access to drink and domestic water, sanitation and hygiene for war affected displaced and returnees' people in the Gaza strip
+Project Start Date: 2025-04-01 - Project End Date: 2025-09-30
+Project Code: CBPF-OPT-25-R-NGO-34918
+Emergency Type: Conflict - Post-conflict needs",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Union of Agricultural Work Committees,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-26,2025-03-27,,,,,340195,CBPF-OPT-25-R-NGO-34918,2025-10-16,2025-10-16
+2025-04-01,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Improve access to drink and domestic water, sanitation and hygiene for war affected displaced and returnees' people in the Gaza strip
+Project Start Date: 2025-04-01 - Project End Date: 2025-09-30
+Project Code: CBPF-OPT-25-R-NGO-34918
+Emergency Type: Conflict - Post-conflict needs",400000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Union of Agricultural Work Committees,NGOs,Water Sanitation Hygiene,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-26,2025-03-27,,,,,340196,CBPF-OPT-25-R-NGO-34918,2025-10-16,2025-10-16
+2025-03-28,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Healing Through Learning: Strengthening Education and Psychosocial Support in Gaza
+Project Start Date: 2025-03-16 - Project End Date: 2026-03-15
+Project Code: CBPF-OPT-25-R-INGO-34916
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,War Child Holland,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-14,2025-03-25,,,,,340006,CBPF-OPT-25-R-INGO-34916,2025-03-30,2025-04-02
+2025-03-28,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Healing Through Learning: Strengthening Education and Psychosocial Support in Gaza
+Project Start Date: 2025-03-16 - Project End Date: 2026-03-15
+Project Code: CBPF-OPT-25-R-INGO-34916
+Emergency Type: Conflict - Displacement",300000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,War Child Holland,NGOs,Education,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-14,2025-03-25,,,,,340007,CBPF-OPT-25-R-INGO-34916,2025-03-30,2025-04-02
+2025-03-27,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Emergency shelter support to returnee IDPs in Gaza
+Project Start Date: 2025-03-25 - Project End Date: 2025-12-24
+Project Code: CBPF-OPT-25-R-INGO-34956
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Catholic Relief Services,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-19,2025-03-24,,,,,339888,CBPF-OPT-25-R-INGO-34956,2025-03-30,2025-04-02
+2025-03-27,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Emergency shelter support to returnee IDPs in Gaza
+Project Start Date: 2025-03-25 - Project End Date: 2025-12-24
+Project Code: CBPF-OPT-25-R-INGO-34956
+Emergency Type: Conflict - Displacement",999634,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Catholic Relief Services,NGOs,Emergency Shelter and NFI,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-19,2025-03-24,,,,,339889,CBPF-OPT-25-R-INGO-34956,2025-03-30,2025-04-02
+2025-03-27,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Emergency Response to Restoring Agricultural Livelihoods and Support the Re-initiation of Agriculture.
+Project Start Date: 2025-03-27 - Project End Date: 2025-09-26
+Project Code: CBPF-OPT-25-R-NGO-34846
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Palestinian Al Nakheel Association for Progress and Development,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-21,2025-03-24,,,,,339890,CBPF-OPT-25-R-NGO-34846,2025-03-30,2025-04-02
+2025-03-27,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Emergency Response to Restoring Agricultural Livelihoods and Support the Re-initiation of Agriculture.
+Project Start Date: 2025-03-27 - Project End Date: 2025-09-26
+Project Code: CBPF-OPT-25-R-NGO-34846
+Emergency Type: Conflict - Displacement",290000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Palestinian Al Nakheel Association for Progress and Development,NGOs,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-03-21,2025-03-24,,,,,339891,CBPF-OPT-25-R-NGO-34846,2025-03-30,2025-04-02
+2025-03-27,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Emergency Response to Restoring Agricultural Livelihoods and Support the Re-initiation of Agriculture.
+Project Start Date: 2025-03-27 - Project End Date: 2025-09-26
+Project Code: CBPF-OPT-25-R-NGO-34846
+Emergency Type: Conflict - Displacement",59995,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Palestinian Al Nakheel Association for Progress and Development,NGOs,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-21,2025-03-24,,,,,339892,CBPF-OPT-25-R-NGO-34846,2025-03-30,2025-04-02
+2025-03-27,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Providing Safe Learning Spaces, Psychosocial Support, and Recreational Activities for War-Affected Children, Teachers, and Parents in Gaza.
+Project Start Date: 2025-03-21 - Project End Date: 2026-03-20
+Project Code: CBPF-OPT-25-R-NGO-34922
+Emergency Type: Conflict - Post-conflict needs",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Save Youth Future Society,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-17,2025-03-24,,,,,339893,CBPF-OPT-25-R-NGO-34922,2025-03-30,2025-04-02
+2025-03-27,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Providing Safe Learning Spaces, Psychosocial Support, and Recreational Activities for War-Affected Children, Teachers, and Parents in Gaza.
+Project Start Date: 2025-03-21 - Project End Date: 2026-03-20
+Project Code: CBPF-OPT-25-R-NGO-34922
+Emergency Type: Conflict - Post-conflict needs",699993,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Save Youth Future Society,NGOs,Education,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-17,2025-03-24,,,,,339894,CBPF-OPT-25-R-NGO-34922,2025-03-30,2025-04-02
+2025-03-27,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Providing Safe and Dignified Shelter Solutions for Displaced Populations in Gaza
+Project Start Date: 2025-03-23 - Project End Date: 2025-12-22
+Project Code: CBPF-OPT-25-R-NGO-34923
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,MA’AN Development Center,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-21,2025-03-24,,,,,339895,CBPF-OPT-25-R-NGO-34923,2025-03-30,2025-04-02
+2025-03-27,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Providing Safe and Dignified Shelter Solutions for Displaced Populations in Gaza
+Project Start Date: 2025-03-23 - Project End Date: 2025-12-22
+Project Code: CBPF-OPT-25-R-NGO-34923
+Emergency Type: Conflict - Displacement",713652,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,MA’AN Development Center,NGOs,Emergency Shelter and NFI,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-21,2025-03-24,,,,,339896,CBPF-OPT-25-R-NGO-34923,2025-03-30,2025-04-02
+2025-03-27,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Ensure protection and MHPSS access for vulnerable women and children in Gaza Strip
+Project Start Date: 2025-03-24 - Project End Date: 2025-09-23
+Project Code: CBPF-OPT-25-R-NGO-34934
+Emergency Type: Conflict - Post-conflict needs",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Al Awda Health and Community Association,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-21,2025-03-24,,,,,339897,CBPF-OPT-25-R-NGO-34934,2025-09-25,2025-10-13
+2025-03-27,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Ensure protection and MHPSS access for vulnerable women and children in Gaza Strip
+Project Start Date: 2025-03-24 - Project End Date: 2025-09-23
+Project Code: CBPF-OPT-25-R-NGO-34934
+Emergency Type: Conflict - Post-conflict needs",300000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Al Awda Health and Community Association,NGOs,Protection,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-21,2025-03-24,,,,,339898,CBPF-OPT-25-R-NGO-34934,2025-09-25,2025-10-13
+2025-03-27,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Shelter and (NFIs) Interventions for Displaced and Returnees Households in the Gaza Strip
+Project Start Date: 2025-03-25 - Project End Date: 2025-11-24
+Project Code: CBPF-OPT-25-R-NGO-34937
+Emergency Type: Conflict - Displacement
+Emergency Type: Conflict - Post-conflict needs",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Palestinian Housing Council,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-21,2025-03-24,,,,,339899,CBPF-OPT-25-R-NGO-34937,2025-03-30,2025-04-02
+2025-03-27,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Shelter and (NFIs) Interventions for Displaced and Returnees Households in the Gaza Strip
+Project Start Date: 2025-03-25 - Project End Date: 2025-11-24
+Project Code: CBPF-OPT-25-R-NGO-34937
+Emergency Type: Conflict - Displacement
+Emergency Type: Conflict - Post-conflict needs",749972,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Palestinian Housing Council,NGOs,Emergency Shelter and NFI,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-21,2025-03-24,,,,,339900,CBPF-OPT-25-R-NGO-34937,2025-03-30,2025-04-02
+2025-03-27,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Integrated Water, Sanitation, and Hygiene Services for Returnee and Makeshift Sites
+Project Start Date: 2025-03-23 - Project End Date: 2025-09-22
+Project Code: CBPF-OPT-25-R-NGO-34948
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,MA’AN Development Center,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-21,2025-03-24,,,,,339901,CBPF-OPT-25-R-NGO-34948,2025-09-24,2025-10-13
+2025-03-27,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Integrated Water, Sanitation, and Hygiene Services for Returnee and Makeshift Sites
+Project Start Date: 2025-03-23 - Project End Date: 2025-09-22
+Project Code: CBPF-OPT-25-R-NGO-34948
+Emergency Type: Conflict - Displacement",400000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,MA’AN Development Center,NGOs,Water Sanitation Hygiene,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-21,2025-03-24,,,,,339902,CBPF-OPT-25-R-NGO-34948,2025-09-24,2025-10-13
+2025-03-27,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Emergency Support for War-Affected Gaza Farmers and returnees Through the Rehabilitation of Their Agricultural facilities, and food assistance support
+Project Start Date: 2025-03-23 - Project End Date: 2025-11-22
+Project Code: CBPF-OPT-25-R-NGO-34952
+Emergency Type: Conflict - Post-conflict needs",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Union of Agricultural Work Committees,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-21,2025-03-24,,,,,339903,CBPF-OPT-25-R-NGO-34952,2025-03-30,2025-04-02
+2025-03-27,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Emergency Support for War-Affected Gaza Farmers and returnees Through the Rehabilitation of Their Agricultural facilities, and food assistance support
+Project Start Date: 2025-03-23 - Project End Date: 2025-11-22
+Project Code: CBPF-OPT-25-R-NGO-34952
+Emergency Type: Conflict - Post-conflict needs",375000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Union of Agricultural Work Committees,NGOs,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-03-21,2025-03-24,,,,,339904,CBPF-OPT-25-R-NGO-34952,2025-03-30,2025-04-02
+2025-03-27,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Emergency Support for War-Affected Gaza Farmers and returnees Through the Rehabilitation of Their Agricultural facilities, and food assistance support
+Project Start Date: 2025-03-23 - Project End Date: 2025-11-22
+Project Code: CBPF-OPT-25-R-NGO-34952
+Emergency Type: Conflict - Post-conflict needs",325000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Union of Agricultural Work Committees,NGOs,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-21,2025-03-24,,,,,339905,CBPF-OPT-25-R-NGO-34952,2025-03-30,2025-04-02
+2025-03-27,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Time-critical support to farming households in the Gaza Strip to help reactivate local agrifood production and restore conflict-affected livelihoods
+Project Start Date: 2025-03-21 - Project End Date: 2026-02-20
+Project Code: CBPF-OPT-25-R-UN-34853
+Emergency Type: Conflict - Post-conflict needs",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Food and Agriculture Organization of the United Nations,Multilateral Organizations,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-19,2025-03-24,,,,,339906,CBPF-OPT-25-R-UN-34853,2025-03-30,2025-04-02
+2025-03-27,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Time-critical support to farming households in the Gaza Strip to help reactivate local agrifood production and restore conflict-affected livelihoods
+Project Start Date: 2025-03-21 - Project End Date: 2026-02-20
+Project Code: CBPF-OPT-25-R-UN-34853
+Emergency Type: Conflict - Post-conflict needs",500000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Food and Agriculture Organization of the United Nations,Multilateral Organizations,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-03-19,2025-03-24,,,,,339907,CBPF-OPT-25-R-UN-34853,2025-03-30,2025-04-02
+2025-03-27,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Time-critical support to farming households in the Gaza Strip to help reactivate local agrifood production and restore conflict-affected livelihoods
+Project Start Date: 2025-03-21 - Project End Date: 2026-02-20
+Project Code: CBPF-OPT-25-R-UN-34853
+Emergency Type: Conflict - Post-conflict needs",200000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Food and Agriculture Organization of the United Nations,Multilateral Organizations,Food Security,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-19,2025-03-24,,,,,339908,CBPF-OPT-25-R-UN-34853,2025-03-30,2025-04-02
+2025-03-27,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Enhance accessibility of returnees and IDPs to comprehensive WASH services in Rafah governorate
+Project Start Date: 2025-04-06 - Project End Date: 2025-10-05
+Project Code: CBPF-OPT-25-R-NGO-34933
+Emergency Type: Conflict - Post-conflict needs",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Palestinian Environmental Friends,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-26,2025-03-26,,,,,340146,CBPF-OPT-25-R-NGO-34933,2025-10-07,2025-10-07
+2025-03-27,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Enhance accessibility of returnees and IDPs to comprehensive WASH services in Rafah governorate
+Project Start Date: 2025-04-06 - Project End Date: 2025-10-05
+Project Code: CBPF-OPT-25-R-NGO-34933
+Emergency Type: Conflict - Post-conflict needs",398972,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Palestinian Environmental Friends,NGOs,Water Sanitation Hygiene,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-26,2025-03-26,,,,,340147,CBPF-OPT-25-R-NGO-34933,2025-10-07,2025-10-07
+2025-03-26,2025,"Emergency Health and Nutrition
+Health Kits for GFO     Gaza",5344,United Nations Children's Fund,Multilateral Organizations,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,United Nations Relief and Works Agency for Palestine Refugees in the Near East,Multilateral Organizations,Health,PSE,,,oPt Complex Emergency 2023-24,2025,2025,in kind,Pass through,Traditional aid,internal,single,paid,2025-07-29,2025-03-26,,,,,356917,IR25G08,2025-08-13,2025-08-13
+2025-03-24,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Emergency WASH services to conflict affected communities, returnees and new IDPs in North Gaza Governorate
+Project Start Date: 2025-03-20 - Project End Date: 2025-09-19
+Project Code: CBPF-OPT-25-R-INGO-34837
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Oxfam Novib Netherlands,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-17,2025-03-20,,,,,339637,CBPF-OPT-25-R-INGO-34837,2025-09-30,2025-10-13
+2025-03-24,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Emergency WASH services to conflict affected communities, returnees and new IDPs in North Gaza Governorate
+Project Start Date: 2025-03-20 - Project End Date: 2025-09-19
+Project Code: CBPF-OPT-25-R-INGO-34837
+Emergency Type: Conflict - Displacement",400000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Oxfam Novib Netherlands,NGOs,Water Sanitation Hygiene,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-17,2025-03-20,,,,,339638,CBPF-OPT-25-R-INGO-34837,2025-09-30,2025-10-13
+2025-03-24,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Emergency Shelter and NFI Assistance for Displaced and Returnee Families in Gaza
+Project Start Date: 2025-03-24 - Project End Date: 2025-12-23
+Project Code: CBPF-OPT-25-R-INGO-34843
+Emergency Type: Conflict - Post-conflict needs",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Norwegian Refugee Council,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-19,2025-03-20,,,,,339639,CBPF-OPT-25-R-INGO-34843,2025-03-26,2025-03-26
+2025-03-24,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Emergency Shelter and NFI Assistance for Displaced and Returnee Families in Gaza
+Project Start Date: 2025-03-24 - Project End Date: 2025-12-23
+Project Code: CBPF-OPT-25-R-INGO-34843
+Emergency Type: Conflict - Post-conflict needs",750000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Norwegian Refugee Council,NGOs,Emergency Shelter and NFI,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-19,2025-03-20,,,,,339640,CBPF-OPT-25-R-INGO-34843,2025-03-26,2025-03-26
+2025-03-24,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Access to Inclusive Safe Temporary Learning Spaces for Displaced School Aged Children with and without disability (Boys and Girls) in the Gaza strip
+Project Start Date: 2025-03-09 - Project End Date: 2026-03-08
+Project Code: CBPF-OPT-25-R-NGO-34917
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Atfaluna Society for Deaf Children,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-07,2025-03-20,,,,,339641,CBPF-OPT-25-R-NGO-34917,2025-03-26,2025-03-26
+2025-03-24,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Access to Inclusive Safe Temporary Learning Spaces for Displaced School Aged Children with and without disability (Boys and Girls) in the Gaza strip
+Project Start Date: 2025-03-09 - Project End Date: 2026-03-08
+Project Code: CBPF-OPT-25-R-NGO-34917
+Emergency Type: Conflict - Displacement",699862,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Atfaluna Society for Deaf Children,NGOs,Education,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-07,2025-03-20,,,,,339642,CBPF-OPT-25-R-NGO-34917,2025-03-26,2025-03-26
+2025-03-24,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Providing Essential PHC Services to IDPs in Gaza
+Project Start Date: 2025-03-16 - Project End Date: 2025-09-15
+Project Code: CBPF-OPT-25-R-NGO-34942
+Emergency Type: Conflict - Post-conflict needs",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Palestinian Medical Relief Society,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-19,2025-03-20,,,,,339643,CBPF-OPT-25-R-NGO-34942,2025-03-26,2025-03-26
+2025-03-24,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Providing Essential PHC Services to IDPs in Gaza
+Project Start Date: 2025-03-16 - Project End Date: 2025-09-15
+Project Code: CBPF-OPT-25-R-NGO-34942
+Emergency Type: Conflict - Post-conflict needs",399980,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Palestinian Medical Relief Society,NGOs,Health,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-19,2025-03-20,,,,,339644,CBPF-OPT-25-R-NGO-34942,2025-03-26,2025-03-26
+2025-03-24,2025,"Emergency Shelter and Non-Food Items
+Winter Clothing Kits    Gaza",130064,United Nations Children's Fund,Multilateral Organizations,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,United Nations Relief and Works Agency for Palestine Refugees in the Near East,Multilateral Organizations,Emergency Shelter and NFI,PSE,,,oPt Complex Emergency 2023-24,2025,2025,in kind,Pass through,Traditional aid,internal,single,paid,2025-07-29,2025-03-24,,,,,356914,IR25G05,2025-08-13,2025-08-13
+2025-03-24,2025,"Emergency Shelter and Non-Food Items
+Hand soap, Baby diapers and Sanitary Pads     Gaza",54650,United Nations Children's Fund,Multilateral Organizations,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,United Nations Relief and Works Agency for Palestine Refugees in the Near East,Multilateral Organizations,Water Sanitation Hygiene,PSE,,,oPt Complex Emergency 2023-24,2025,2025,in kind,Pass through,Traditional aid,internal,single,paid,2025-07-29,2025-03-24,,,,,356915,IR25G06,2025-08-13,2025-08-13
+2025-03-21,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Promoting Continuity of Learning and Well-being for Displacement Affected Children in Gaza
+Project Start Date: 2025-03-16 - Project End Date: 2025-12-15
+Project Code: CBPF-OPT-25-R-INGO-34834
+Emergency Type: Conflict - Post-conflict needs",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Norwegian Refugee Council,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-12,2025-03-18,,,,,339553,CBPF-OPT-25-R-INGO-34834,2025-03-23,2025-03-24
+2025-03-21,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Promoting Continuity of Learning and Well-being for Displacement Affected Children in Gaza
+Project Start Date: 2025-03-16 - Project End Date: 2025-12-15
+Project Code: CBPF-OPT-25-R-INGO-34834
+Emergency Type: Conflict - Post-conflict needs",500000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Norwegian Refugee Council,NGOs,Education,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-12,2025-03-18,,,,,339554,CBPF-OPT-25-R-INGO-34834,2025-03-23,2025-03-24
+2025-03-21,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Post -Ceasefire Humanitarian Response: Responding to urgent healthcare needs for displaced and returning communities across Gaza.
+Project Start Date: 2025-03-16 - Project End Date: 2025-09-15
+Project Code: CBPF-OPT-25-R-INGO-34851
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Medical Aid for Palestinians,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-14,2025-03-19,,,,,339585,CBPF-OPT-25-R-INGO-34851,2025-03-23,2025-03-24
+2025-03-21,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Post -Ceasefire Humanitarian Response: Responding to urgent healthcare needs for displaced and returning communities across Gaza.
+Project Start Date: 2025-03-16 - Project End Date: 2025-09-15
+Project Code: CBPF-OPT-25-R-INGO-34851
+Emergency Type: Conflict - Displacement",998199,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Medical Aid for Palestinians,NGOs,Health,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-14,2025-03-19,,,,,339586,CBPF-OPT-25-R-INGO-34851,2025-03-23,2025-03-24
+2025-03-21,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Provision of equitable and need-based emergency shelter support to vulnerable conflict affected people in southern governorates of Gaza strip
+Project Start Date: 2025-03-15 - Project End Date: 2025-12-14
+Project Code: CBPF-OPT-25-R-NGO-34920
+Emergency Type: Conflict - Post-conflict needs",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Palestinian Environmental Friends,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-12,2025-03-19,,,,,339587,CBPF-OPT-25-R-NGO-34920,2025-03-23,2025-03-24
+2025-03-21,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Provision of equitable and need-based emergency shelter support to vulnerable conflict affected people in southern governorates of Gaza strip
+Project Start Date: 2025-03-15 - Project End Date: 2025-12-14
+Project Code: CBPF-OPT-25-R-NGO-34920
+Emergency Type: Conflict - Post-conflict needs",150000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Palestinian Environmental Friends,NGOs,Emergency Shelter and NFI,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-03-12,2025-03-19,,,,,339588,CBPF-OPT-25-R-NGO-34920,2025-03-23,2025-03-24
+2025-03-21,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Provision of equitable and need-based emergency shelter support to vulnerable conflict affected people in southern governorates of Gaza strip
+Project Start Date: 2025-03-15 - Project End Date: 2025-12-14
+Project Code: CBPF-OPT-25-R-NGO-34920
+Emergency Type: Conflict - Post-conflict needs",597218,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Palestinian Environmental Friends,NGOs,Emergency Shelter and NFI,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-12,2025-03-19,,,,,339589,CBPF-OPT-25-R-NGO-34920,2025-03-23,2025-03-24
+2025-03-21,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Ensuring Access and Availability: Lifesaving Sexual and Reproductive Health and Rights Services in Gaza
+Project Start Date: 2025-03-15 - Project End Date: 2025-09-14
+Project Code: CBPF-OPT-25-R-UN-34861
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,United Nations Population Fund,Multilateral Organizations,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-14,2025-03-19,,,,,339590,CBPF-OPT-25-R-UN-34861,2025-09-16,2025-09-16
+2025-03-21,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Ensuring Access and Availability: Lifesaving Sexual and Reproductive Health and Rights Services in Gaza
+Project Start Date: 2025-03-15 - Project End Date: 2025-09-14
+Project Code: CBPF-OPT-25-R-UN-34861
+Emergency Type: Conflict - Displacement",599981,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,United Nations Population Fund,Multilateral Organizations,Health,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-14,2025-03-19,,,,,339591,CBPF-OPT-25-R-UN-34861,2025-09-16,2025-09-16
+2025-03-19,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Life-Saving Multi-Purpose Cash Assistance for IDPs in Gaza &amp; Strengthening Humanitarian Coordination and Partnerships between local and international aid actors
+Project Start Date: 2025-03-19 - Project End Date: 2026-03-18
+Project Code: CBPF-OPT-25-R-INGO-34836
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Oxfam Novib Netherlands,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-14,2025-03-18,,,,,339555,CBPF-OPT-25-R-INGO-34836,2025-03-22,2025-03-24
+2025-03-19,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Life-Saving Multi-Purpose Cash Assistance for IDPs in Gaza &amp; Strengthening Humanitarian Coordination and Partnerships between local and international aid actors
+Project Start Date: 2025-03-19 - Project End Date: 2026-03-18
+Project Code: CBPF-OPT-25-R-INGO-34836
+Emergency Type: Conflict - Displacement",600000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Oxfam Novib Netherlands,NGOs,Multipurpose Cash,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-03-14,2025-03-18,,,,,339556,CBPF-OPT-25-R-INGO-34836,2025-03-22,2025-03-24
+2025-03-19,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Emergency Multi-Purpose Cash Assistance to Support Basic Needs Coverage to Crisis-Affected Families in Gaza
+Project Start Date: 2025-03-16 - Project End Date: 2025-09-15
+Project Code: CBPF-OPT-25-R-INGO-34842
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Acción Contra el Hambre - Spain,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-14,2025-03-18,,,,,339557,CBPF-OPT-25-R-INGO-34842,2025-09-17,2025-09-18
+2025-03-19,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Emergency Multi-Purpose Cash Assistance to Support Basic Needs Coverage to Crisis-Affected Families in Gaza
+Project Start Date: 2025-03-16 - Project End Date: 2025-09-15
+Project Code: CBPF-OPT-25-R-INGO-34842
+Emergency Type: Conflict - Displacement",400000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Acción Contra el Hambre - Spain,NGOs,Multipurpose Cash,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-03-14,2025-03-18,,,,,339558,CBPF-OPT-25-R-INGO-34842,2025-09-17,2025-09-18
+2025-03-17,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Strengthening Access to Quality Education for Returning Children Affected by Conflict in Gaza and Khan Younis Governorates
+Project Start Date: 2025-03-01 - Project End Date: 2026-02-28
+Project Code: CBPF-OPT-25-R-NGO-34862
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Palestine Save the Children Foundation,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-02-28,2025-03-11,,,,,339149,CBPF-OPT-25-R-NGO-34862,2025-03-20,2025-03-20
+2025-03-17,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Strengthening Access to Quality Education for Returning Children Affected by Conflict in Gaza and Khan Younis Governorates
+Project Start Date: 2025-03-01 - Project End Date: 2026-02-28
+Project Code: CBPF-OPT-25-R-NGO-34862
+Emergency Type: Conflict - Displacement",800052,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Palestine Save the Children Foundation,NGOs,Education,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-02-28,2025-03-11,,,,,339150,CBPF-OPT-25-R-NGO-34862,2025-03-20,2025-03-20
+2025-03-05,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Provision of emergency mental health services to IDPs and returnees' men, women, boys and girls with/without disabilities affected by war and traumatic events in the Gaza strip.
+Project Start Date: 2025-03-01 - Project End Date: 2026-02-28
+Project Code: CBPF-OPT-25-R-NGO-34915
+Emergency Type: Conflict - Displacement
+Emergency Type: Conflict - Post-conflict needs",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Gaza Community Mental Health Programme,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-05,2025-03-03,,,,,339054,CBPF-OPT-25-R-NGO-34915,2025-03-11,2025-03-11
+2025-03-05,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Provision of emergency mental health services to IDPs and returnees' men, women, boys and girls with/without disabilities affected by war and traumatic events in the Gaza strip.
+Project Start Date: 2025-03-01 - Project End Date: 2026-02-28
+Project Code: CBPF-OPT-25-R-NGO-34915
+Emergency Type: Conflict - Displacement
+Emergency Type: Conflict - Post-conflict needs",500000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Gaza Community Mental Health Programme,NGOs,Health,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-05,2025-03-03,,,,,339055,CBPF-OPT-25-R-NGO-34915,2025-03-11,2025-03-11
+2025-03-05,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Multi-Purpose Cash Assistance for Urgent Needs of Returnees in Gaza
+Project Start Date: 2025-03-10 - Project End Date: 2025-09-09
+Project Code: CBPF-OPT-25-R-NGO-34919
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,MA’AN Development Center,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-05,2025-03-03,,,,,339056,CBPF-OPT-25-R-NGO-34919,2025-09-11,2025-09-11
+2025-03-05,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Multi-Purpose Cash Assistance for Urgent Needs of Returnees in Gaza
+Project Start Date: 2025-03-10 - Project End Date: 2025-09-09
+Project Code: CBPF-OPT-25-R-NGO-34919
+Emergency Type: Conflict - Displacement",348531,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,MA’AN Development Center,NGOs,Multipurpose Cash,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-03-05,2025-03-03,,,,,339057,CBPF-OPT-25-R-NGO-34919,2025-09-11,2025-09-11
+2025-03-05,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Provision of Multi-Purpose Cash Assistance (MPCA) to support the most vulnerable households affected by the conflict and displacement in Gaza Strip
+Project Start Date: 2025-03-01 - Project End Date: 2025-08-31
+Project Code: CBPF-OPT-25-R-NGO-34953
+Emergency Type: Conflict - Displacement",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,AISHA Association for Woman and Child Protection,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-05,2025-03-03,,,,,339058,CBPF-OPT-25-R-NGO-34953,2025-09-02,2025-09-02
+2025-03-05,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Provision of Multi-Purpose Cash Assistance (MPCA) to support the most vulnerable households affected by the conflict and displacement in Gaza Strip
+Project Start Date: 2025-03-01 - Project End Date: 2025-08-31
+Project Code: CBPF-OPT-25-R-NGO-34953
+Emergency Type: Conflict - Displacement",399992,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,AISHA Association for Woman and Child Protection,NGOs,Multipurpose Cash,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Cash transfer programming (CTP),internal,single,paid,2025-03-05,2025-03-03,,,,,339059,CBPF-OPT-25-R-NGO-34953,2025-09-02,2025-09-02
+2025-03-05,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Enhance pediatric healthcare services in the northern and middle governorates of the Gaza Strip.
+Project Start Date: 2025-03-01 - Project End Date: 2025-08-31
+Project Code: CBPF-OPT-25-R-NGO-34960
+Emergency Type: Conflict - Post-conflict needs",0,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Al Awda Health and Community Association,NGOs,,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Parked,Traditional aid,internal,single,paid,2025-03-05,2025-03-04,,,,,339060,CBPF-OPT-25-R-NGO-34960,2025-09-02,2025-09-02
+2025-03-05,2025,"Allocation Type: Reserve - First Reserve Allocation 2025
+Enhance pediatric healthcare services in the northern and middle governorates of the Gaza Strip.
+Project Start Date: 2025-03-01 - Project End Date: 2025-08-31
+Project Code: CBPF-OPT-25-R-NGO-34960
+Emergency Type: Conflict - Post-conflict needs",600000,Occupied Palestinian Territory Humanitarian Fund,Pooled Funds,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Al Awda Health and Community Association,NGOs,Health,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Standard,Traditional aid,internal,single,paid,2025-03-05,2025-03-04,,,,,339061,CBPF-OPT-25-R-NGO-34960,2025-09-02,2025-09-02
+2024-04-29,2025,Beyond Health: Emergency response in West Bank,81541,Associazione Volontari per il Servizio Internazionale,NGOs,PSE,2025,2025,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,1273,Medical Aid for Palestinians,NGOs,Health,PSE,,,oPt Complex Emergency 2023-24,2025,2025,financial,Pass through,Traditional aid,internal,single,commitment,2025-06-30,2025-04-15,West Bank,69599,EUR,0.8535,347856,AID 12273/01/1),2025-07-01,2025-07-01
