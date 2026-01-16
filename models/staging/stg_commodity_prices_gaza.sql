@@ -3,7 +3,6 @@ WITH source AS (
 ),
 
 cleaned AS (
-
     SELECT
         LOWER(TRIM("commodity name (english)")) AS commodity_name_raw,
         LOWER(TRANSLATE("amount (english)", '()', '')) AS unit_amount_raw,
@@ -38,6 +37,16 @@ enriched AS (
         price,
         avg_price_before_oct7
     FROM cleaned
+),
+
+standardised_units AS (
+SELECT
+    commodity_name,
+    REGEXP_REPLACE(unit_amount, 'liters|litres|liter|litre', 'L', 'gi') AS unit_amount,
+    price_date,
+    price,
+    avg_price_before_oct7
+FROM enriched
 )
 
 SELECT
@@ -46,4 +55,4 @@ SELECT
     price_date,
     price,
     avg_price_before_oct7
-FROM enriched
+FROM standardised_units
