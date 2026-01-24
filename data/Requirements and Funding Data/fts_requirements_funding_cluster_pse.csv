@@ -1,55 +1,69 @@
 countryCode,id,name,code,startDate,endDate,year,clusterCode,cluster,requirements,funding,percentFunded
 #country+code,#activity+appeal+id+fts_internal,#activity+appeal+name,#activity+appeal+id+external,#date+start,#date+end,#date+year,#sector+cluster+code,#sector+cluster+name,#value+funding+required+usd,#value+funding+total+usd,#value+funding+pct
-PSE,1273,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,2025-01-01,2025-12-31,2025,8190,Coordination and Support Services,285054038,28165295,10
-PSE,1273,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,2025-01-01,2025-12-31,2025,8188,Education,230331261,49913393,22
-PSE,1273,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,2025-01-01,2025-12-31,2025,8195,Emergency Telecommunications,2520000,1500000,60
-PSE,1273,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,2025-01-01,2025-12-31,2025,8005,Food Security,1303588029,375072383,29
-PSE,1273,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,2025-01-01,2025-12-31,2025,8185,Health,596090390,144594243,24
-PSE,1273,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,2025-01-01,2025-12-31,2025,8194,Logistics,74750000,34675450,46
-PSE,1273,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,2025-01-01,2025-12-31,2025,8186,Multi-purpose Cash Assistance,370261781,109560074,30
-PSE,1273,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,2025-01-01,2025-12-31,2025,8192,Nutrition,203000000,30494779,15
-PSE,1273,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,2025-01-01,2025-12-31,2025,8189,Protection,275665132,75268987,27
-PSE,1273,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,2025-01-01,2025-12-31,2025,8191,Shelter and non-Food Items,249680000,72230167,29
-PSE,1273,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,2025-01-01,2025-12-31,2025,8193,Site Management,81345050,340596,0
-PSE,1273,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,2025-01-01,2025-12-31,2025,8187,"Water, Sanitation and Hygiene",400773001,80554898,20
-PSE,1273,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,2025-01-01,2025-12-31,2025,,Not specified,,287308424,
-PSE,1273,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,2025-01-01,2025-12-31,2025,,Multiple clusters/sectors (shared),,33590091,
-PSE,1156,Escalation of Hostilities in the OPT Flash Appeal 2024,FPSE24,2024-01-01,2024-12-31,2024,7239,Coordination and Support Services,195977725,143240871,73
-PSE,1156,Escalation of Hostilities in the OPT Flash Appeal 2024,FPSE24,2024-01-01,2024-12-31,2024,7241,Education,175492785,72780501,41
+PSE,1510,Escalation of Hostilities in the OPT Flash Appeal 2026,FPSE26,2026-01-01,2026-12-31,2026,8689,Coordination and Support Services,175594351,9817156,6
+PSE,1510,Escalation of Hostilities in the OPT Flash Appeal 2026,FPSE26,2026-01-01,2026-12-31,2026,8684,Education,197686536,6433412,3
+PSE,1510,Escalation of Hostilities in the OPT Flash Appeal 2026,FPSE26,2026-01-01,2026-12-31,2026,8691,Emergency Telecommunications,1039270,,
+PSE,1510,Escalation of Hostilities in the OPT Flash Appeal 2026,FPSE26,2026-01-01,2026-12-31,2026,8685,Food Security,1257544309,11389092,1
+PSE,1510,Escalation of Hostilities in the OPT Flash Appeal 2026,FPSE26,2026-01-01,2026-12-31,2026,8687,Health,485796939,28470212,6
+PSE,1510,Escalation of Hostilities in the OPT Flash Appeal 2026,FPSE26,2026-01-01,2026-12-31,2026,8690,Logistics,52000000,,
+PSE,1510,Escalation of Hostilities in the OPT Flash Appeal 2026,FPSE26,2026-01-01,2026-12-31,2026,8682,Multi-purpose Cash Assistance,592625000,3370126,1
+PSE,1510,Escalation of Hostilities in the OPT Flash Appeal 2026,FPSE26,2026-01-01,2026-12-31,2026,8688,Nutrition,231566600,6547097,3
+PSE,1510,Escalation of Hostilities in the OPT Flash Appeal 2026,FPSE26,2026-01-01,2026-12-31,2026,8619,Protection,332748667,16722444,5
+PSE,1510,Escalation of Hostilities in the OPT Flash Appeal 2026,FPSE26,2026-01-01,2026-12-31,2026,8686,Shelter,193730638,5073627,3
+PSE,1510,Escalation of Hostilities in the OPT Flash Appeal 2026,FPSE26,2026-01-01,2026-12-31,2026,8692,Site Management,70499998,,
+PSE,1510,Escalation of Hostilities in the OPT Flash Appeal 2026,FPSE26,2026-01-01,2026-12-31,2026,8683,"Water, Sanitation and Hygiene",473473500,4497444,1
+PSE,1510,Escalation of Hostilities in the OPT Flash Appeal 2026,FPSE26,2026-01-01,2026-12-31,2026,,Not specified,,19691096,
+PSE,1510,Escalation of Hostilities in the OPT Flash Appeal 2026,FPSE26,2026-01-01,2026-12-31,2026,,Multiple clusters/sectors (shared),,12356812,
+PSE,1273,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,2025-01-01,2025-12-31,2025,8190,Coordination and Support Services,285054038,36019001,13
+PSE,1273,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,2025-01-01,2025-12-31,2025,8188,Education,230331261,52606475,23
+PSE,1273,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,2025-01-01,2025-12-31,2025,8195,Emergency Telecommunications,2520000,1652582,66
+PSE,1273,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,2025-01-01,2025-12-31,2025,8005,Food Security,1303588029,523514965,40
+PSE,1273,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,2025-01-01,2025-12-31,2025,8185,Health,596090390,222496088,37
+PSE,1273,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,2025-01-01,2025-12-31,2025,8194,Logistics,74750000,39964467,53
+PSE,1273,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,2025-01-01,2025-12-31,2025,8186,Multi-purpose Cash Assistance,370261781,149410620,40
+PSE,1273,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,2025-01-01,2025-12-31,2025,8192,Nutrition,203000000,39842618,20
+PSE,1273,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,2025-01-01,2025-12-31,2025,8189,Protection,275665132,131120885,48
+PSE,1273,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,2025-01-01,2025-12-31,2025,8191,Shelter and non-Food Items,249680000,74102647,30
+PSE,1273,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,2025-01-01,2025-12-31,2025,8193,Site Management,81345050,588655,1
+PSE,1273,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,2025-01-01,2025-12-31,2025,8187,"Water, Sanitation and Hygiene",400773001,93787620,23
+PSE,1273,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,2025-01-01,2025-12-31,2025,,Not specified,,275554974,
+PSE,1273,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,2025-01-01,2025-12-31,2025,,Multiple clusters/sectors (shared),,47707346,
+PSE,1156,Escalation of Hostilities in the OPT Flash Appeal 2024,FPSE24,2024-01-01,2024-12-31,2024,7239,Coordination and Support Services,195977725,139486656,71
+PSE,1156,Escalation of Hostilities in the OPT Flash Appeal 2024,FPSE24,2024-01-01,2024-12-31,2024,7241,Education,175492785,74857755,43
 PSE,1156,Escalation of Hostilities in the OPT Flash Appeal 2024,FPSE24,2024-01-01,2024-12-31,2024,7591,Emergency Telecommunications,2190530,274123,13
-PSE,1156,Escalation of Hostilities in the OPT Flash Appeal 2024,FPSE24,2024-01-01,2024-12-31,2024,7240,Food Security,930362613,1163390353,125
-PSE,1156,Escalation of Hostilities in the OPT Flash Appeal 2024,FPSE24,2024-01-01,2024-12-31,2024,7242,Health,510608680,355007590,70
+PSE,1156,Escalation of Hostilities in the OPT Flash Appeal 2024,FPSE24,2024-01-01,2024-12-31,2024,7240,Food Security,930362613,1161887807,125
+PSE,1156,Escalation of Hostilities in the OPT Flash Appeal 2024,FPSE24,2024-01-01,2024-12-31,2024,7242,Health,510608680,358213955,70
 PSE,1156,Escalation of Hostilities in the OPT Flash Appeal 2024,FPSE24,2024-01-01,2024-12-31,2024,7590,Logistics,23189581,74535467,321
-PSE,1156,Escalation of Hostilities in the OPT Flash Appeal 2024,FPSE24,2024-01-01,2024-12-31,2024,7246,Multi-Purpose Cash Assistance,293440399,68243034,23
-PSE,1156,Escalation of Hostilities in the OPT Flash Appeal 2024,FPSE24,2024-01-01,2024-12-31,2024,7596,Nutrition,159902458,44919157,28
-PSE,1156,Escalation of Hostilities in the OPT Flash Appeal 2024,FPSE24,2024-01-01,2024-12-31,2024,7243,Protection,188625201,144184617,76
-PSE,1156,Escalation of Hostilities in the OPT Flash Appeal 2024,FPSE24,2024-01-01,2024-12-31,2024,7244,Shelter and Non-Food Items,525182246,155691062,30
+PSE,1156,Escalation of Hostilities in the OPT Flash Appeal 2024,FPSE24,2024-01-01,2024-12-31,2024,7246,Multi-Purpose Cash Assistance,293440399,67601352,23
+PSE,1156,Escalation of Hostilities in the OPT Flash Appeal 2024,FPSE24,2024-01-01,2024-12-31,2024,7596,Nutrition,159902458,50519286,32
+PSE,1156,Escalation of Hostilities in the OPT Flash Appeal 2024,FPSE24,2024-01-01,2024-12-31,2024,7243,Protection,188625201,149360369,79
+PSE,1156,Escalation of Hostilities in the OPT Flash Appeal 2024,FPSE24,2024-01-01,2024-12-31,2024,7244,Shelter and Non-Food Items,525182246,142113264,27
 PSE,1156,Escalation of Hostilities in the OPT Flash Appeal 2024,FPSE24,2024-01-01,2024-12-31,2024,7631,Site Management,39721806,28220940,71
-PSE,1156,Escalation of Hostilities in the OPT Flash Appeal 2024,FPSE24,2024-01-01,2024-12-31,2024,7245,"Water, Sanitation and Hygiene",378161910,196839027,52
-PSE,1156,Escalation of Hostilities in the OPT Flash Appeal 2024,FPSE24,2024-01-01,2024-12-31,2024,,Not specified,,259276509,
-PSE,1156,Escalation of Hostilities in the OPT Flash Appeal 2024,FPSE24,2024-01-01,2024-12-31,2024,,Multiple clusters/sectors (shared),,169562254,
+PSE,1156,Escalation of Hostilities in the OPT Flash Appeal 2024,FPSE24,2024-01-01,2024-12-31,2024,7245,"Water, Sanitation and Hygiene",378161910,192936560,51
+PSE,1156,Escalation of Hostilities in the OPT Flash Appeal 2024,FPSE24,2024-01-01,2024-12-31,2024,,Not specified,,260746144,
+PSE,1156,Escalation of Hostilities in the OPT Flash Appeal 2024,FPSE24,2024-01-01,2024-12-31,2024,,Multiple clusters/sectors (shared),,169482446,
 PSE,1109,Occupied Palestinian Territory Humanitarian Response Plan 2023,HPSE23,2023-01-01,2023-09-30,2023,6760,Coordination and Support Services,9533315,5046348,53
-PSE,1109,Occupied Palestinian Territory Humanitarian Response Plan 2023,HPSE23,2023-01-01,2023-09-30,2023,6762,Education,26222156,15360193,59
+PSE,1109,Occupied Palestinian Territory Humanitarian Response Plan 2023,HPSE23,2023-01-01,2023-09-30,2023,6762,Education,26222156,16034084,61
 PSE,1109,Occupied Palestinian Territory Humanitarian Response Plan 2023,HPSE23,2023-01-01,2023-09-30,2023,6761,Food Security,209809128,226623312,108
-PSE,1109,Occupied Palestinian Territory Humanitarian Response Plan 2023,HPSE23,2023-01-01,2023-09-30,2023,6763,Health,34617749,28868681,83
-PSE,1109,Occupied Palestinian Territory Humanitarian Response Plan 2023,HPSE23,2023-01-01,2023-09-30,2023,6767,Multi-cluster/Multi-Purpose Cash,14247547,27427934,193
-PSE,1109,Occupied Palestinian Territory Humanitarian Response Plan 2023,HPSE23,2023-01-01,2023-09-30,2023,6764,Protection,30125434,36915978,123
+PSE,1109,Occupied Palestinian Territory Humanitarian Response Plan 2023,HPSE23,2023-01-01,2023-09-30,2023,6763,Health,34617749,29174357,84
+PSE,1109,Occupied Palestinian Territory Humanitarian Response Plan 2023,HPSE23,2023-01-01,2023-09-30,2023,6767,Multi-cluster/Multi-Purpose Cash,14247547,27733610,195
+PSE,1109,Occupied Palestinian Territory Humanitarian Response Plan 2023,HPSE23,2023-01-01,2023-09-30,2023,6764,Protection,30125434,40004912,133
 PSE,1109,Occupied Palestinian Territory Humanitarian Response Plan 2023,HPSE23,2023-01-01,2023-09-30,2023,6765,Shelter and NFI Cluster,26136745,15885525,61
 PSE,1109,Occupied Palestinian Territory Humanitarian Response Plan 2023,HPSE23,2023-01-01,2023-09-30,2023,6766,WASH,26037127,6140386,24
 PSE,1109,Occupied Palestinian Territory Humanitarian Response Plan 2023,HPSE23,2023-01-01,2023-09-30,2023,,Not specified,,4851048,
-PSE,1109,Occupied Palestinian Territory Humanitarian Response Plan 2023,HPSE23,2023-01-01,2023-09-30,2023,,Multiple clusters/sectors (shared),,0,
+PSE,1109,Occupied Palestinian Territory Humanitarian Response Plan 2023,HPSE23,2023-01-01,2023-09-30,2023,,Multiple clusters/sectors (shared),,2400000,
 PSE,1186,Escalation of Hostilities in the OPT Flash Appeal 2023,FPSE23,2023-10-01,2023-12-31,2023,7427,Coordination and Support Services,31677608,23554601,74
 PSE,1186,Escalation of Hostilities in the OPT Flash Appeal 2023,FPSE23,2023-10-01,2023-12-31,2023,7433,Education,58599683,24312620,41
 PSE,1186,Escalation of Hostilities in the OPT Flash Appeal 2023,FPSE23,2023-10-01,2023-12-31,2023,7530,Emergency Telecommunications,409470,,
 PSE,1186,Escalation of Hostilities in the OPT Flash Appeal 2023,FPSE23,2023-10-01,2023-12-31,2023,7426,Food Security,155488043,156442642,101
-PSE,1186,Escalation of Hostilities in the OPT Flash Appeal 2023,FPSE23,2023-10-01,2023-12-31,2023,7430,Health,102077500,67042517,66
+PSE,1186,Escalation of Hostilities in the OPT Flash Appeal 2023,FPSE23,2023-10-01,2023-12-31,2023,7430,Health,102077500,67397675,66
 PSE,1186,Escalation of Hostilities in the OPT Flash Appeal 2023,FPSE23,2023-10-01,2023-12-31,2023,7529,Logistics,5708628,5739602,101
 PSE,1186,Escalation of Hostilities in the OPT Flash Appeal 2023,FPSE23,2023-10-01,2023-12-31,2023,7429,Multi-purpose Cash Assistance,51762290,27074310,52
-PSE,1186,Escalation of Hostilities in the OPT Flash Appeal 2023,FPSE23,2023-10-01,2023-12-31,2023,7595,Nutrition,14390249,10962880,76
-PSE,1186,Escalation of Hostilities in the OPT Flash Appeal 2023,FPSE23,2023-10-01,2023-12-31,2023,7432,Protection,25878492,24491105,95
-PSE,1186,Escalation of Hostilities in the OPT Flash Appeal 2023,FPSE23,2023-10-01,2023-12-31,2023,7428,Shelter and Non-Food Items,107059464,72196566,67
-PSE,1186,Escalation of Hostilities in the OPT Flash Appeal 2023,FPSE23,2023-10-01,2023-12-31,2023,7431,"Water, Sanitation and Hygiene",76046880,47119761,62
-PSE,1186,Escalation of Hostilities in the OPT Flash Appeal 2023,FPSE23,2023-10-01,2023-12-31,2023,,Not specified,,130645313,
+PSE,1186,Escalation of Hostilities in the OPT Flash Appeal 2023,FPSE23,2023-10-01,2023-12-31,2023,7595,Nutrition,14390249,12279255,85
+PSE,1186,Escalation of Hostilities in the OPT Flash Appeal 2023,FPSE23,2023-10-01,2023-12-31,2023,7432,Protection,25878492,24606105,95
+PSE,1186,Escalation of Hostilities in the OPT Flash Appeal 2023,FPSE23,2023-10-01,2023-12-31,2023,7428,Shelter and Non-Food Items,107059464,72396566,68
+PSE,1186,Escalation of Hostilities in the OPT Flash Appeal 2023,FPSE23,2023-10-01,2023-12-31,2023,7431,"Water, Sanitation and Hygiene",76046880,47199761,62
+PSE,1186,Escalation of Hostilities in the OPT Flash Appeal 2023,FPSE23,2023-10-01,2023-12-31,2023,,Not specified,,131200869,
 PSE,1186,Escalation of Hostilities in the OPT Flash Appeal 2023,FPSE23,2023-10-01,2023-12-31,2023,,Multiple clusters/sectors (shared),,44603248,
 PSE,1059,Occupied Palestinian Territory Humanitarian Response Plan 2022,HPSE22,2022-01-01,2022-12-31,2022,6304,Coordination and Support Services,13310395,4105494,31
 PSE,1059,Occupied Palestinian Territory Humanitarian Response Plan 2022,HPSE22,2022-01-01,2022-12-31,2022,6306,Education,37266934,37758705,101

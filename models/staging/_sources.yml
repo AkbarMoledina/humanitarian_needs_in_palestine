@@ -5,11 +5,11 @@ sources:
     database: dev
     schema: raw
     tables:
-      - name: commodity_prices_gaza
+      - name: commodity_prices
         description: "Basic commodity prices in Gaza"
 
-      - name: malnutrition_in_gaza
-        description: "Malnutrition prevalence data from Gaza"
+      - name: aid_received
+        description: "Supplies and Dispatch Tracking in Gaza"
 
       - name: requirements_and_funding
         description: "Basic commodity prices in Gaza"

@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: dim_commodities
+  - name: dim_commodity
     description: "Unique list of commodities and unit amounts."
 
     columns:
@@ -21,26 +21,22 @@ models:
         tests:
           - not_null
 
-  - name: fct_commodity_prices_gaza
+  - name: fct_commodity_prices
     description: "Commodity prices over time."
 
     tests:
       - dbt_utils.unique_combination_of_columns:
-          combination_of_columns:
-            - commodity_name
-            - unit_amount
-            - price_date
+          arguments:
+            combination_of_columns:
+              - commodity_id
+              - date_id
 
     columns:
-      - name: commodity_name
+      - name: commodity_id
         tests:
           - not_null
 
-      - name: unit_amount
-        tests:
-          - not_null
-
-      - name: price_date
+      - name: date_id
         tests:
           - not_null
 

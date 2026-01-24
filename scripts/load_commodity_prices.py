@@ -44,10 +44,10 @@ print(f"Transformed shape: {df_long.shape}\n")
 con = duckdb.connect("../dev.duckdb")
 
 # Create table
-con.execute("CREATE OR REPLACE TABLE raw.commodity_prices_gaza AS SELECT * FROM df_long")
+con.execute("CREATE OR REPLACE TABLE raw.commodity_prices AS SELECT * FROM df_long")
 
 # Show sample
-sample = con.execute("SELECT * FROM raw.commodity_prices_gaza LIMIT 10").df()
+sample = con.execute("SELECT * FROM raw.commodity_prices LIMIT 10").df()
 print(sample)
 
 con.close()

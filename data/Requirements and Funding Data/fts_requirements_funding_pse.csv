@@ -1,20 +1,21 @@
 countryCode,id,name,code,typeId,typeName,startDate,endDate,year,requirements,funding,percentFunded
 #country+code,#activity+appeal+id+fts_internal,#activity+appeal+name,#activity+appeal+id+external,#activity+appeal+type+id+fts_internal,#activity+appeal+type+name,#date+start,#date+end,#date+year,#value+funding+required+usd,#value+funding+total+usd,#value+funding+pct
 PSE,,Not specified,,,,,,2028,,3618398,
-PSE,,Not specified,,,,,,2027,,6530369,
-PSE,,Not specified,,,,,,2026,,69684108,
-PSE,1273,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,5,Flash appeal,2025-01-01,2025-12-31,2025,4073058682,1323268780,32
-PSE,,Not specified,,,,,,2025,,1499534505,
-PSE,1156,Escalation of Hostilities in the OPT Flash Appeal 2024,FPSE24,5,Flash appeal,2024-01-01,2024-12-31,2024,3422855934,2876165505,84
-PSE,,Not specified,,,,,,2024,,826416238,
-PSE,1109,Occupied Palestinian Territory Humanitarian Response Plan 2023,HPSE23,4,Humanitarian response plan,2023-01-01,2023-09-30,2023,376729201,367119405,97
-PSE,1186,Escalation of Hostilities in the OPT Flash Appeal 2023,FPSE23,5,Flash appeal,2023-10-01,2023-12-31,2023,629098307,634185165,101
-PSE,,Not specified,,,,,,2023,,836449285,
+PSE,,Not specified,,,,,,2027,,8874156,
+PSE,1510,Escalation of Hostilities in the OPT Flash Appeal 2026,FPSE26,5,Flash appeal,2026-01-01,2026-12-31,2026,4064305808,124368518,3
+PSE,,Not specified,,,,,,2026,,7960842,
+PSE,1273,Escalation of Hostilities in the OPT Flash Appeal 2025,FPSE25,5,Flash appeal,2025-01-01,2025-12-31,2025,4073058682,1688368943,41
+PSE,,Not specified,,,,,,2025,,1688207601,
+PSE,1156,Escalation of Hostilities in the OPT Flash Appeal 2024,FPSE24,5,Flash appeal,2024-01-01,2024-12-31,2024,3422855934,2870236124,84
+PSE,,Not specified,,,,,,2024,,870893945,
+PSE,1109,Occupied Palestinian Territory Humanitarian Response Plan 2023,HPSE23,4,Humanitarian response plan,2023-01-01,2023-09-30,2023,376729201,373893582,99
+PSE,1186,Escalation of Hostilities in the OPT Flash Appeal 2023,FPSE23,5,Flash appeal,2023-10-01,2023-12-31,2023,629098307,636807254,101
+PSE,,Not specified,,,,,,2023,,844253730,
 PSE,1059,Occupied Palestinian Territory Humanitarian Response Plan 2022,HPSE22,4,Humanitarian response plan,2022-01-01,2022-12-31,2022,509872202,465216721,91
-PSE,,Not specified,,,,,,2022,,513993744,
+PSE,,Not specified,,,,,,2022,,514340411,
 PSE,1012,Occupied Palestinian Territory Humanitarian Response Plan 2021,HPSE21,4,Humanitarian response plan,2021-01-01,2021-12-31,2021,417567330,376437027,90
 PSE,1049,Escalation of Hostilities in the OPT  Flash Appeal 2021,FPSE21,5,Flash appeal,2021-05-27,2021-08-27,2021,94862068,48119021,51
-PSE,,Not specified,,,,,,2021,,544908212,
+PSE,,Not specified,,,,,,2021,,545854879,
 PSE,832,Occupied Palestinian Territory Humanitarian Response Plan 2020,HPSE20,4,Humanitarian response plan,2020-01-01,2020-12-31,2020,420381684,327419788,78
 PSE,,Not specified,,,,,,2020,,345546395,
 PSE,664,Occupied Palestinian Territory Humanitarian Response Strategy 2019,HPSE19,4,Humanitarian response plan,2019-01-01,2019-12-30,2019,350589271,292549322,83

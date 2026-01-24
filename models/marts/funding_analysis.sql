@@ -15,5 +15,5 @@ SELECT
         WHEN funding_pct >= 50 THEN 'Partially Funded'
         ELSE 'Severely Underfunded'
     END AS funding_status
-FROM {{ ref('stg_funding_pse') }}
+FROM {{ ref('stg_funding') }}
 ORDER BY year DESC, funding_pct ASC
