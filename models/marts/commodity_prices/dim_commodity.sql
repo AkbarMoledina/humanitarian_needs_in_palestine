@@ -15,7 +15,7 @@ SELECT
     CASE
         WHEN commodity_name LIKE '%rice%' THEN 'Carbohydrates'
         WHEN commodity_name IN ('bread', 'biscuits', 'crushed bulgur', 'crushed dry freekeh', 'white canned cooked beans', 'egyptian beans medames') THEN 'Carbohydrates'
-        WHEN commodity_name IN ('eggs', 'chickens', 'fresh lamb with bone', 'fresh veal') THEN 'Protein'
+        WHEN commodity_name IN ('eggs', 'chickens', 'fresh lamb with bone', 'fresh veal') THEN 'Proteins'
         WHEN commodity_name IN ('apples', 'tomatoes', 'zucchinis', 'eggplants', 'chili pepper', 'bell pepper', 'cucumbers', 'dry onions', 'potato', 'lemons') THEN 'Fruit/vegetables'
         WHEN commodity_name LIKE '%flour%' THEN 'Staple ingredients'
         WHEN commodity_name IN ('oil', 'pure white sugar', 'crushed red lentils') THEN 'Staple ingredients'

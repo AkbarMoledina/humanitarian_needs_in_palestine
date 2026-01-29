@@ -6,11 +6,15 @@ WITH all_dates AS (
 
     SELECT DISTINCT received_date AS date
     FROM {{ ref('stg_aid_received') }}
+
+    UNION
+
+    SELECT DATE '2023-10-01' AS date
 )
 
 SELECT
     STRFTIME(date, '%Y%m%d')::INT AS date_id,
-    date AS date,
+    date AS full_date,
     YEAR(date) AS year,
     CASE
         WHEN MONTH(date) IN (1,2,3) THEN 'Q1'

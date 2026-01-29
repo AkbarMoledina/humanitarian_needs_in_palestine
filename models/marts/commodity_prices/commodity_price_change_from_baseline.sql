@@ -32,11 +32,11 @@ SELECT
     c.commodity_name,
     c.unit_amount,
     c.commodity_category,
-    d.date,
+    d.full_date,
     d.month_name,
     d.year,
-    calc.price,
     calc.baseline_price,
+    calc.price,
     calc.pct_change_from_baseline
 FROM calc
 INNER JOIN {{ ref('dim_commodity') }} c
