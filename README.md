@@ -13,15 +13,11 @@ This repository is structured to reflect modern analytics engineering best pract
 
 ### 🛠️ Tech Stack
 
-DuckDB – analytical database
-
-dbt – data modelling, testing, and documentation
-
-Python – raw data ingestion
-
-SQL – transformations and analytics models
-
-Jupyter Notebook - analysis
+- DuckDB – analytical database
+- dbt – data modelling, testing, and documentation
+- Python – raw data ingestion
+- SQL – transformations and analytics models
+- Jupyter Notebook - analysis
 
 # 🗂️ Data Model Overview
 ## Raw Layer
