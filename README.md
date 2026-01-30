@@ -5,11 +5,9 @@ This project analyses monthly commodity price data in Gaza to understand how pri
 
 The focus so far is on:
 
-Building a robust analytics engineering pipeline using dbt and DuckDB
-
-Creating clean, reusable fact and dimension models
-
-Preparing analysis-ready mart tables to support downstream exploration and storytelling
+- Building a robust analytics engineering pipeline using dbt and DuckDB
+- Creating clean, reusable fact and dimension models
+- Preparing analysis-ready mart tables to support downstream exploration and storytelling
 
 This repository is structured to reflect modern analytics engineering best practices, separating raw ingestion, staging, core facts/dimensions, and analytics marts.
 
@@ -23,7 +21,7 @@ Python – raw data ingestion
 
 SQL – transformations and analytics models
 
-(Jupyter Notebook analysis coming next)
+Jupyter Notebook - analysis
 
 # 🗂️ Data Model Overview
 ## Raw Layer
