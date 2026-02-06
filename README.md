@@ -139,7 +139,7 @@ dbt tests are applied to key models, including:
 
 # 🔍 Analysis
 
-Reports can be found in tha analyses folder: https://github.com/AkbarMoledina/humanitarian_needs_in_palestine/tree/main/analyses
+Reports can be found in the analyses folder: https://github.com/AkbarMoledina/humanitarian_needs_in_palestine/tree/main/analyses
 
 # 🚧 Work in Progress / Next Steps
 
