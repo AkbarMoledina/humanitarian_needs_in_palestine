@@ -35,7 +35,8 @@ Cleans and standardises raw data:
 
 Example:
 
-stg_commodity_prices_gaza
+- stg_aid_received
+- stg_commodity_prices_gaza
 
 ## Core Models (Facts & Dimensions)
 
@@ -44,23 +45,20 @@ stg_commodity_prices_gaza
 - One row per unique commodity + unit
 - Uses a surrogate key for stability and joins
 
-Columns:
+### dim_date
 
-- commodity_id
-- commodity_name
-- unit_amount
+- One row per date
+- Uses a date id for stability and joins
+
+### fct_aid_received
+
+- One row per cargo
+- Includes cargo description, category and quantity 
 
 ### fct_commodity_prices_gaza
 
 - One row per commodity, unit, and date
 - Includes both observed monthly prices and a synthetic baseline price
-
-Columns:
-
-- commodity_name
-- unit_amount
-- price_date
-- price
 
 A synthetic baseline price dated 2023-10-01 is included to support before/after comparisons.
 
@@ -131,7 +129,7 @@ Use cases:
 - Comparing relative price shocks across commodities
 - Supporting narrative analysis
 
-# 🔍 Data Quality & Testing
+# 🧪 Data Quality & Testing
 
 dbt tests are applied to key models, including:
 
@@ -139,13 +137,15 @@ dbt tests are applied to key models, including:
 - unique tests on surrogate keys
 - Referential integrity between fact and dimension tables
 
+# 🔍 Analysis
+
+Reports can be found in tha analyses folder: https://github.com/AkbarMoledina/humanitarian_needs_in_palestine/tree/main/analyses
+
 # 🚧 Work in Progress / Next Steps
 
 Planned next steps include:
 
-- Jupyter Notebook analysis and storytelling
-- Index-based price normalisation
-- Commodity grouping (e.g. staples vs fresh produce)
+- Aid delivered against commodity prices
 - Visualisation layer (Tableau or similar)
 
 # 🎯 Project Goal
