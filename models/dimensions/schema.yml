@@ -1,0 +1,76 @@
+version: 2
+
+models:
+  - name: dim_commodity
+    description: "Unique list of commodities and unit amounts."
+
+    columns:
+      - name: commodity_id
+        description: "Surrogate key for a commodity and unit combinations."
+        tests:
+          - not_null
+          - unique
+
+      - name: commodity_name
+        description: "Normalized commodity name."
+        tests:
+          - not_null
+
+      - name: unit_amount
+        description: "Unit and quantity."
+        tests:
+          - not_null
+
+      - name: commodity_category
+        tests:
+          - accepted_values:
+              values:
+                - Carbohydrates
+                - Proteins
+                - Fruit/vegetables
+                - Staple ingredients
+                - Other food items
+                - Cigarettes
+                - Water
+                - Travel
+                - Fuel
+                - Other
+
+  - name: dim_date
+    description: "Date dimension table."
+
+    columns:
+      - name: date_id
+        tests:
+          - not_null
+          - unique
+
+      - name: full_date
+        tests:
+          - not_null
+          - unique
+
+      - name: year
+        tests:
+          - not_null
+
+      - name: quarter
+        tests:
+          - accepted_values:
+              values: ["Q1", "Q2", "Q3", "Q4"]
+
+      - name: month
+        tests:
+          - accepted_values:
+              values: [1,2,3,4,5,6,7,8,9,10,11,12]
+
+      - name: month_name
+        tests:
+          - not_null
+
+      - name: day
+        tests:
+          - accepted_values:
+              values:  [1,2,3,4,5,6,7,8,9,10,
+                        11,12,13,14,15,16,17,18,19,20,
+                        21,22,23,24,25,26,27,28,29,30,31]

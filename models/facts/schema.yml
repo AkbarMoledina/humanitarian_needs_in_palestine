@@ -1,0 +1,45 @@
+version: 2
+
+models:
+  - name: fct_aid_received
+    description: "Fact table: Aid received"
+
+    columns:
+    - name: id
+      tests:
+        - not_null
+
+    - name: date_id
+        - not_null
+
+
+  - name: fct_commodity_prices
+    description: "Commodity prices over time."
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns:
+              - commodity_id
+              - date_id
+
+    columns:
+      - name: commodity_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_commodity')
+              field: commodity_id
+
+      - name: date_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_date')
+              field: date_id
+
+      - name: price
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
