@@ -5,9 +5,10 @@ models:
     description: "Fact table: Aid received"
 
     columns:
-    - name: id
+    - name: aid_event_id
       tests:
         - not_null
+        - unique
 
     - name: date_id
         - not_null

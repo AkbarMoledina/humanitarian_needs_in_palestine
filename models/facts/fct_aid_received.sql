@@ -1,17 +1,16 @@
 SELECT
-    id,
-    number_of_trucks,
+    id AS aid_event_id,
     STRFTIME(received_date, '%Y%m%d')::INT AS date_id,
+    number_of_trucks,
     items,
     cargo_category,
-    status,
     quantity,
     units,
     donated_by,
     donation_type,
     crossing,
-    destination_recipient,
+    recipient,
     data_period,
     last_edited
-FROM {{ ref('stg_aid_received')}}
+FROM {{ ref('stg_aid_received')}} s
 WHERE status = 'Received'
