@@ -6,10 +6,8 @@ SELECT
     cargo_category,
     quantity,
     units,
-    donated_by,
     donation_type,
     crossing,
-    recipient,
     data_period,
     last_edited
 FROM {{ ref('stg_aid_received')}} s
