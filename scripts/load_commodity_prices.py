@@ -3,7 +3,7 @@ import pandas as pd
 import datetime
 import os
 
-# File path
+# Load file
 file_path = r"C:\Users\akbar\PycharmProjects\humanitarian_needs_in_palestine\data\Prices of basic commodities in Gaza\commodity-prices-in-gaza.xlsx"
 
 if not os.path.exists(file_path):
@@ -40,13 +40,11 @@ df_long = df_long.sort_values(['commodity name (english)', 'price_date'])
 
 print(f"Transformed shape: {df_long.shape}\n")
 
-# Connect to DuckDB
+# Connect to DuckDB and create table
 con = duckdb.connect("../dev.duckdb")
 
-# Create table
 con.execute("CREATE OR REPLACE TABLE raw.commodity_prices AS SELECT * FROM df_long")
 
-# Show sample
 sample = con.execute("SELECT * FROM raw.commodity_prices LIMIT 10").df()
 print(sample)
 
