@@ -13,7 +13,7 @@ SELECT
     Units AS units,
     "Donating Country/ Organization" AS donated_by,
     "Donation Type" AS donation_type,
-    Crossing AS crossing,
+    LOWER(TRIM(Crossing)) AS crossing,
     "Destination Recipient/ Partner" AS recipient,
     "Data Period" AS data_period,
     "Last Edited Time"::TIMESTAMP AS last_edited

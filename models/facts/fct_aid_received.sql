@@ -7,8 +7,10 @@ SELECT
     quantity,
     units,
     donation_type,
-    crossing,
+    crossing_id,
     data_period,
     last_edited
-FROM {{ ref('stg_aid_received')}} s
+FROM {{ ref('stg_aid_received') }} s
+LEFT JOIN {{ ref('dim_crossing') }} dc
+ON s.crossing = LOWER(TRIM(dc.crossing_name))
 WHERE status = 'Received'

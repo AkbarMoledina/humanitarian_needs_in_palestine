@@ -1,18 +1,21 @@
 SELECT
     aid_event_id,
     f.date_id,
-    d.full_date,
-    d.year,
-    d.week_of_year,
+    dd.full_date,
+    dd.year,
+    dd.week_of_year,
     number_of_trucks,
     items,
     cargo_category,
     quantity,
     units,
     donation_type,
-    crossing,
+    f.crossing_id,
+    dc.crossing_name,
     data_period,
     last_edited
 FROM fct_aid_received f
-INNER JOIN {{ ref('dim_date') }} d
-ON f.date_id = d.date_id
+INNER JOIN {{ ref('dim_date') }} dd
+ON f.date_id = dd.date_id
+INNER JOIN {{ ref('dim_crossing' )}} dc
+ON f.crossing_id = dc.crossing_id
