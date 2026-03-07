@@ -2,20 +2,44 @@ version: 2
 
 models:
   - name: fct_aid_received
-    description: "Fact table: Aid received"
+    description: "Fact table of aid received"
 
     columns:
     - name: aid_event_id
+      description: "Primary key for the aid event"
       tests:
         - not_null
         - unique
 
     - name: date_id
+      description: "Foreign key to dim_date"
+      tests:
         - not_null
+        - relationships:
+            arguments:
+              to: ref('dim_date')
+              field: date_id
+
+    - name: crossing_id
+      description: "Foreign key to dim_crossing"
+      tests:
+        - relationships:
+            arguments:
+              to: ref('dim_crossing')
+              field: crossing_id
+
+    - name: number_of_trucks
+      description: "Number of trucks in the aid event"
+      tests:
+        - not_null
+        - dbt_utils.accepted_range:
+            arguments:
+              min_value: 0
+              inclusive: false
 
 
   - name: fct_commodity_prices
-    description: "Commodity prices over time."
+    description: "Fact table of commodity prices over time, with baseline comparison"
 
     tests:
       - dbt_utils.unique_combination_of_columns:
@@ -26,21 +50,28 @@ models:
 
     columns:
       - name: commodity_id
+        description: "Foreign key to dim_commodity"
         tests:
           - not_null
           - relationships:
-              to: ref('dim_commodity')
-              field: commodity_id
+              arguments:
+                to: ref('dim_commodity')
+                field: commodity_id
 
       - name: date_id
+        description: "Foreign key to dim_date"
         tests:
           - not_null
           - relationships:
-              to: ref('dim_date')
-              field: date_id
+              arguments:
+                to: ref('dim_date')
+                field: date_id
 
       - name: price
+        description: "Commodity price on the given date"
         tests:
           - not_null
-          - dbt_utils.expression_is_true:
-              expression: ">= 0"
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 0
+                inclusive: false
