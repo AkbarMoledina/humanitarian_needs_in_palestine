@@ -45,10 +45,25 @@ Example:
 - One row per unique commodity + unit
 - Uses a surrogate key for stability and joins
 
+### dim_crossing
+
+- One row per crossing
+- Uses a surrogate key for stability and joins
+
 ### dim_date
 
 - One row per date
-- Uses a date id for stability and joins
+- Uses date id for stability and joins
+
+### dim_organisation
+
+- One row per organisation
+- Uses a surrogate key for stability and joins
+
+### bridge_orgainisation
+
+- Handles the many-to-many relationship between aid event and organisation
+- Contains aid_event_id, org_id and org_role (donor/recipient)
 
 ### fct_aid_received
 
