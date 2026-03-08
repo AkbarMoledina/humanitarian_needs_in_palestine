@@ -2,75 +2,247 @@ version: 2
 
 models:
   - name: dim_commodity
-    description: "Unique list of commodities and unit amounts."
+    description: "Dimension table for commodities. Includes categorization and unit information. Each row represents a commodity-unit combination."
 
     columns:
       - name: commodity_id
-        description: "Surrogate key for a commodity and unit combinations."
+        description: "Surrogate key for commodity and unit combinations. Primary key."
         tests:
           - not_null
           - unique
 
       - name: commodity_name
-        description: "Normalized commodity name."
+        description: "Normalized name of the commodity."
         tests:
           - not_null
 
       - name: unit_amount
-        description: "Unit and quantity."
+        description: "Unit of measurement and quantity."
         tests:
           - not_null
 
       - name: commodity_category
+        description: "Category assigned in dim_commodity. Used for grouping similar commodities for analysis"
         tests:
           - accepted_values:
-              values:
-                - Carbohydrates
-                - Proteins
-                - Fruit/vegetables
-                - Staple ingredients
-                - Other food items
-                - Cigarettes
-                - Water
-                - Travel
-                - Fuel
-                - Other
+              arguments:
+                values:
+                  - Carbohydrates
+                  - Proteins
+                  - Fruit/vegetables
+                  - Staple ingredients
+                  - Other food items
+                  - Cigarettes
+                  - Water
+                  - Travel
+                  - Fuel
+                  - Other
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          name: unique_commodity_unit_combination
+          description: "Ensures no duplicate commodity-unit combinations exist"
+          arguments:
+            combination_of_columns:
+              - commodity_name
+              - unit_amount
+
+  - name: dim_crossing
+    description: "Dimension table of border crossing into Gaza. Sourced from seed data with approximate geographic coordinates"
+
+    columns:
+      - name: crossing_id
+        description: "Surrogate key for the crossing point. Primary key."
+        tests:
+          - unique
+          - not_null
+
+      - name: crossing_name
+        description: "Name of the crossing point."
+        tests:
+          - unique
+          - not_null
+
+      - name: border_zone
+        description: "Geographic zone of the crossing."
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["Rafah", "Deir al Balah", "Gaza City", "North Gaza"]
+
+      - name: bordering_country
+        description: "Country/sea that the crossing connects to."
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["Egypt", "Israel", "Mediterranean Sea"]
+
+      - name: latitude
+        description: "Approximate latitude coordinate of the crossing point."
+
+      - name: longitude
+        description: "Approximate longitude coordinate of the crossing point."
+
 
   - name: dim_date
-    description: "Date dimension table."
+    description: "Dimension table for dates. Contains all dates present in the fact tables."
 
     columns:
       - name: date_id
+        description: "Integer date in YYYYMMDD. Primary key."
         tests:
           - not_null
           - unique
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 20231001
+                inclusive: true
 
       - name: full_date
+        description: "Full date field (DATE data type)."
         tests:
           - not_null
           - unique
 
       - name: year
+        description: "Year extracted from date."
         tests:
           - not_null
+          - accepted_values:
+              arguments:
+                values: [2023, 2024, 2025, 2026]
 
       - name: quarter
+        description: "Calendar quarter."
         tests:
           - accepted_values:
-              values: ["Q1", "Q2", "Q3", "Q4"]
+              arguments:
+                values: ["Q1", "Q2", "Q3", "Q4"]
 
       - name: month
+        description: "Month number."
         tests:
           - accepted_values:
-              values: [1,2,3,4,5,6,7,8,9,10,11,12]
+              arguments:
+                values: [1,2,3,4,5,6,7,8,9,10,11,12]
 
       - name: month_name
+        description: "Full month name."
         tests:
           - not_null
+          - accepted_values:
+              arguments:
+                values: [ 'January', 'February', 'March', 'April', 'May', 'June',
+                          'July', 'August', 'September', 'October', 'November', 'December' ]
+
+      - name: week_of_year
+        description: "Week number within the year."
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 1
+                max_value: 53
+                inclusive: true
 
       - name: day
+        description: "Day of the month."
         tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 1
+                max_value: 31
+                inclusive: true
+
+      - name: day_name
+        description: "Day of the week name."
+        tests:
+          - not_null
           - accepted_values:
-              values:  [1,2,3,4,5,6,7,8,9,10,
-                        11,12,13,14,15,16,17,18,19,20,
-                        21,22,23,24,25,26,27,28,29,30,31]
+              arguments:
+                values: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          name: date_consistency_check
+          description: "Ensures year/month/day combinations are unique"
+          arguments:
+            combination_of_columns:
+              - year
+              - month
+              - day
+
+      - dbt_utils.expression_is_true:
+          name: date_logic_consistency
+          description: "Verifies derived month matches extracted month"
+          arguments:
+            expression: "month = EXTRACT(MONTH FROM full_date)"
+
+
+  - name: dim_organisation
+    description: "Dimension table of organisations involved in aid delivery. Includes both donors and recipients"
+
+    columns:
+      - name: org_id
+        description: "Surrogate key for organisation. Primary key."
+        tests:
+          - unique
+          - not_null
+
+      - name: organisation_name
+        description: "Name of the organisation"
+        tests:
+          - unique
+          - not_null
+
+    tests:
+      - dbt_utils.expression_is_true:
+          name: organisation_name_no_extra_spaces
+          description: "Verifies that organisation names are properly trimmed"
+          arguments:
+            expression: "organisation_name = TRIM(organisation_name)"
+
+
+  - name: bridge_organisation
+    description: "Bridging table linking aid events to organisations with their roles (donor/recipient). Handles many-to-many relationships where multiple organisations are involved in a single aid event."
+
+    columns:
+      - name: aid_event_id
+        description: "Foreign key to fct_aid_received. Identifies the aid event in question."
+        tests:
+          - not_null
+          - relationships:
+              name: bridge_to_fact_relationship
+              to: ref('fct_aid_received')
+              field: aid_event_id
+
+      - name: org_id
+        description: "Foreign key to dim_organisation. Identifies the organisation involved."
+        tests:
+          - not_null
+          - relationships:
+              name: bridge_to_dim_organisation_relationship
+              to: ref('dim_organisation')
+              field: org_id
+
+      - name: organisation_role
+        description: "Role of the organisation for this aid event."
+        tests:
+          - not_null
+          - accepted_values:
+              name: valid_org_rules
+              arguments:
+                values: ["donor", "recipient"]
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          name: unique_bridge_combination
+          description: "Prevents duplicates for the same organisation, event and role."
+          arguments:
+            combination_of_columns:
+              - aid_event_id
+              - org_id
+              - organisation_role
