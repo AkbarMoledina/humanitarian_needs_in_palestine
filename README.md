@@ -1,12 +1,22 @@
+![dbt](https://img.shields.io/badge/dbt-core-blue)
+![Python](https://img.shields.io/badge/python-3.11-green)
+![DuckDB](https://img.shields.io/badge/DuckDB-database-yellow)
+
 # 📦 Project: Commodity Price Trends in Gaza
 ## Overview
 
-This project analyses monthly commodity price data in Gaza to understand how prices have evolved since October 2023, following significant geopolitical disruption.
+Since October 2023, Gaza has faced severe geopolitical disruption. Humanitarian organisations need reliable data to understand how commodity prices have evolved - but raw data is messy, inconsistent, and hard to analyze. This project builds a clean, reliable data foundation and answers critical questions about price trends, inflationary pressure, and the impact of aid.
 
-The focus so far is on:
+Reports can be found in the [analyses](https://github.com/AkbarMoledina/humanitarian_needs_in_palestine/tree/main/analyses) folder: 
 
-- Building a robust analytics engineering pipeline using dbt and DuckDB
-- Creating clean, reusable fact and dimension models
+- **Commodity Price Analysis** – Analysing price trends
+- **Aid Received Analysis** – Understanding aid flows and constraints
+
+## Key Achievements
+
+- Built a robust analytics engineering pipeline using dbt and DuckDB
+- Created a clean, reusable star-schema with multiple fact, dimension (SCD Type 1) and bridging tables
+- Implemented 40+ dbt tests to ensure data quality throughout the pipeline
 - Preparing analysis-ready mart tables to support downstream exploration and storytelling
 
 This repository is structured to reflect modern analytics engineering best practices, separating raw ingestion, staging, core facts/dimensions, and analytics marts.
@@ -60,7 +70,7 @@ Example:
 - One row per organisation
 - Uses a surrogate key for stability and joins
 
-### bridge_orgainisation
+### bridge_organisation
 
 - Handles the many-to-many relationship between aid event and organisation
 - Contains aid_event_id, org_id and org_role (donor/recipient)
@@ -83,78 +93,48 @@ The marts layer is designed for direct querying and analysis, without additional
 
 1. Commodity Price Time Series
 
-A thin mart exposing price observations over time.
+A thin mart exposing price observations over time. Use cases:
 
-SELECT
-    commodity_name,
-    unit_amount,
-    price_date,
-    price
-FROM {{ ref('fct_commodity_prices_gaza') }}
-
-
-Use cases:
-
-- Trend analysis
+- Trend analysis of commodity prices over time
 - Visualisation
 - Index construction
 
 2. Price Change from Baseline
 
-Calculates percentage change relative to the October 2023 baseline price.
-
-WITH baseline AS (
-    SELECT
-        commodity_name,
-        unit_amount,
-        price AS baseline_price
-    FROM {{ ref('fct_commodity_prices_gaza') }}
-    WHERE price_date = '2023-10-01'
-),
-
-actual AS (
-    SELECT
-        commodity_name,
-        unit_amount,
-        price_date,
-        price
-    FROM {{ ref('fct_commodity_prices_gaza') }}
-    WHERE price_date > '2023-10-01'
-)
-
-SELECT
-    a.commodity_name,
-    a.unit_amount,
-    a.price_date,
-    a.price,
-    b.baseline_price,
-    ROUND(
-        ((a.price - b.baseline_price) / b.baseline_price) * 100,
-        2
-    ) AS pct_change_from_baseline
-FROM actual a
-INNER JOIN baseline b
-    ON a.commodity_name = b.commodity_name
-   AND a.unit_amount = b.unit_amount
-
-
-Use cases:
+Calculates percentage change relative to the October 2023 baseline price. Use cases:
 
 - Measuring inflationary pressure
 - Comparing relative price shocks across commodities
 - Supporting narrative analysis
 
-# 🧪 Data Quality & Testing
+3. Aid Events
+
+A simple mart featuring a single aid event per row, with cargo category and crossing details. Use cases:
+
+- Aid flow by cargo category over time
+- Border crossing usage over time
+
+
+# 🧪 Data Quality & Testing Methodology
 
 dbt tests are applied to key models, including:
 
-- not_null tests on primary columns
-- unique tests on surrogate keys
+- Unique and not_null tests on primary columns and surrogate keys
+- Relationship tests on all foreign keys
+- Accepted value tests for fields that a restricted to certain values or ranges
+- Custom tests for price ratios and date consistency
 - Referential integrity between fact and dimension tables
 
-# 🔍 Analysis
+## 📁 Project Structure
 
-Reports can be found in the analyses folder: https://github.com/AkbarMoledina/humanitarian_needs_in_palestine/tree/main/analyses
+```
+├── analyses/          # Jupyter notebooks for analysis
+├── models/            # dbt models (staging, dimensions, facts, marts)
+├── scripts/           # Python data ingestion scripts
+├── seeds/             # Reference data (crossings, categories)
+├── tests/             # Custom singular tests
+└── dbt_project.yml    # dbt project configuration
+```
 
 # 🚧 Work in Progress / Next Steps
 
