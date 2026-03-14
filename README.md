@@ -129,10 +129,10 @@ dbt tests are applied to key models, including:
 
 ```
 ├── analyses/          # Jupyter notebooks for analysis
+├── data/              # Raw data from https://data.humdata.org/group/pse
 ├── models/            # dbt models (staging, dimensions, facts, marts)
 ├── scripts/           # Python data ingestion scripts
 ├── seeds/             # Reference data (crossings, categories)
-├── tests/             # Custom singular tests
 └── dbt_project.yml    # dbt project configuration
 ```
 
