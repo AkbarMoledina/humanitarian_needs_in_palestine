@@ -1,16 +1,39 @@
-WITH all_dates AS (
-    SELECT DISTINCT price_date AS date
-    FROM {{ ref('stg_commodity_prices') }}
+WITH date_range AS (
+    SELECT
+        MIN(min_date) AS start_date,
+        MAX(max_date) AS end_date
+    FROM (
+        SELECT
+            MIN(price_date) AS min_date,
+            MAX(price_date) AS max_date
+        FROM {{ ref('stg_commodity_prices') }}
 
-    UNION
+        UNION ALL
 
-    SELECT DISTINCT received_date AS date
-    FROM {{ ref('stg_aid_received') }}
+        SELECT
+            MIN(received_date) AS min_date,
+            MAX(received_date) AS max_date
+        FROM {{ ref('stg_aid_received') }}
 
-    UNION
+        UNION ALL
 
-    SELECT DATE '2023-10-01' AS date
+        SELECT
+            DATE '2023-10-01' AS min_date,
+            CURRENT_DATE AS max_date
+        ) AS dates
+    ),
+
+
+date_spine AS (
+    SELECT UNNEST(
+        GENERATE_SERIES(
+            (SELECT start_date FROM date_range),
+            (SELECT end_date FROM date_range),
+            INTERVAL 1 DAY
+        )
+    ) AS date
 )
+
 
 SELECT
     STRFTIME(date, '%Y%m%d')::INT AS date_id,
@@ -26,5 +49,8 @@ SELECT
     MONTHNAME(date) AS month_name,
     WEEK(date) as week_of_year,
     DAY(date) AS day,
-    DAYNAME(date) AS day_name
-FROM all_dates
+    DAYNAME(date) AS day_name,
+    DAYOFWEEK(date) AS day_of_week,
+    CASE WHEN DAYOFWEEK(date) IN (6,7) THEN TRUE ELSE FALSE END AS is_weekend
+FROM date_spine
+ORDER BY date

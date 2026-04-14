@@ -15,7 +15,7 @@ SELECT
     data_period,
     last_edited
 FROM fct_aid_received f
-INNER JOIN {{ ref('dim_date') }} dd
+RIGHT JOIN {{ ref('dim_date') }} dd
 ON f.date_id = dd.date_id
 INNER JOIN {{ ref('dim_crossing' )}} dc
 ON f.crossing_id = dc.crossing_id

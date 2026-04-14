@@ -1,12 +1,13 @@
 import duckdb
 import pandas as pd
-import os
+from pathlib import Path
 
 # Load file
-file_path = r"C:\Users\akbar\PycharmProjects\humanitarian_needs_in_palestine\data\Gaza Supplies and Dispatch Tracking\commodities-received-13.xlsx"
+PROJECT_ROOT = Path(__file__).parent.parent
+file_path = PROJECT_ROOT / "data" / "Gaza Supplies and Dispatch Tracking" / "Commodities Received.xlsx"
 
-if not os.path.exists(file_path):
-    raise FileNotFoundError
+if not file_path.exists():
+    raise FileNotFoundError(f"File not found: {file_path}")
 
 df = pd.read_excel(file_path)
 print(f"Original shape: {df.shape}\n")
