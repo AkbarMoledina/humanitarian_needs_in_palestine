@@ -19,7 +19,8 @@ WITH date_range AS (
 
         SELECT
             DATE '2023-10-01' AS min_date,
-            CURRENT_DATE AS max_date
+            CURRENT_DATE AS max_date,
+
         ) AS dates
     ),
 

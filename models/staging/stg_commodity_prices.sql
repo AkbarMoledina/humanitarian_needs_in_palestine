@@ -11,7 +11,6 @@ cleaned AS (
         ROUND("average price before 7 October 2023", 2) AS avg_price_before_oct7,
         -- Add metadata
         current_timestamp AS loaded_at
-
     FROM source
     WHERE price IS NOT NULL
 ),

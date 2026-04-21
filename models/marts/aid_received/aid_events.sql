@@ -14,8 +14,10 @@ SELECT
     dc.crossing_name,
     data_period,
     last_edited
-FROM fct_aid_received f
-RIGHT JOIN {{ ref('dim_date') }} dd
-ON f.date_id = dd.date_id
-INNER JOIN {{ ref('dim_crossing' )}} dc
-ON f.crossing_id = dc.crossing_id
+FROM {{ ref('dim_date') }} dd
+LEFT JOIN {{ ref('fct_aid_received') }} f
+    ON f.date_id = dd.date_id
+LEFT JOIN {{ ref('dim_crossing') }} dc
+    ON f.crossing_id = dc.crossing_id
+WHERE dd.date_id <= f.date_id
+ORDER BY dd.full_date
