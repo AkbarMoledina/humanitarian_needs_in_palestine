@@ -5,4 +5,4 @@ SELECT
     bordering_country,
     latitude,
     longitude
-FROM {{ ref('dim_crossing_seed') }}
+FROM {{ ref('crossing_seed') }}
