@@ -1,16 +1,10 @@
 from pathlib import Path
-from hdx.api.configuration import Configuration
-from hdx.data.dataset import Dataset
+from ckanapi import RemoteCKAN
+import requests
 
-Configuration.create(
-    hdx_site="prod",
-    user_agent="humanitarian_needs_palestine",
-    hdx_read_only=True
-)
-
-
-# Setting root folder, dataset names, resource names and paths
 PROJECT_ROOT = Path(__file__).parent.parent
+hdx = RemoteCKAN('https://data.humdata.org')
+
 files_to_download = [
     {
         "dataset": "state-of-palestine-price-of-basic-commodities-in-gaza",
@@ -24,28 +18,41 @@ files_to_download = [
     }
 ]
 
+
 def download_resource(dataset_name: str, resource_name: str, output_path: Path) -> bool:
-    ds = Dataset.read_from_hdx(dataset_name)
-    if not ds:
-        print(f"Dataset not found: {dataset_name}")
+    try:
+        dataset = hdx.action.package_show(id=dataset_name)
+
+        resource_url = None
+        for resource in dataset['resources']:
+            if resource['name'] == resource_name:
+                resource_url = resource['url']
+                break
+
+        if not resource_url:
+            print("Resource not found: " + resource_name)
+            return False
+
+        output_path.mkdir(parents=True, exist_ok=True)
+        response = requests.get(resource_url)
+        response.raise_for_status()
+
+        target = output_path / resource_name
+        with open(target, 'wb') as f:
+            f.write(response.content)
+
+        print(resource_name + "saved to " + target)
+        return True
+
+    except Exception as e:
+        print("Error downloading: " + dataset_name)
         return False
 
-    for res in ds.get_resources():
-        if res["name"] == resource_name:
-            output_path.mkdir(parents=True, exist_ok=True)
-            _, downloaded_path = res.download(folder=str(output_path))
-            downloaded = Path(downloaded_path)
-            target = output_path / resource_name
-            downloaded.replace(target)
-            print(f"{resource_name} saved to {target}")
-            return True
-
-    print(f"Resource not found: {resource_name}")
-    return False
 
 def main():
     for file in files_to_download:
         download_resource(file["dataset"], file["resource"], Path(file["path"]))
+
 
 if __name__ == "__main__":
     main()
