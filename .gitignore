@@ -2,3 +2,7 @@
 target/
 dbt_packages/
 logs/
+analyses/Playpen.ipynb
+scripts/playpen.py
+analyses/Playpen.ipynb
+scripts/playpen.py

@@ -19,7 +19,7 @@ WITH date_range AS (
 
         SELECT
             DATE '2023-10-01' AS min_date,
-            CURRENT_DATE AS max_date,
+            CURRENT_DATE AS max_date
 
         ) AS dates
     ),
@@ -52,6 +52,11 @@ SELECT
     DAY(date) AS day,
     DAYNAME(date) AS day_name,
     DAYOFWEEK(date) AS day_of_week,
-    CASE WHEN DAYOFWEEK(date) IN (6,7) THEN TRUE ELSE FALSE END AS is_weekend
+    CASE WHEN DAYOFWEEK(date) IN (6,7) THEN TRUE ELSE FALSE END AS is_weekend,
+    CASE
+        WHEN full_date BETWEEN '2023-11-24' AND '2023-12-01' THEN 1
+        WHEN full_date BETWEEN '2025-01-19' AND '2025-03-17' THEN 1
+        WHEN full_date >= '2025-10-03' THEN 1
+        ELSE 0 END AS is_ceasefire
 FROM date_spine
 ORDER BY date

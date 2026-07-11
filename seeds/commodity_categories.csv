@@ -1,0 +1,49 @@
+commodity_pattern,match_type,commodity_category
+%rice%,like,Carbohydrates
+bread,in,Carbohydrates
+biscuits,in,Carbohydrates
+%beans%,like,Carbohydrates
+%lentils%,like,Carbohydrates
+chickpeas,in,Carbohydrates
+%bulgur%,like,Carbohydrates
+%freekeh%,like,Carbohydrates
+wheat,in,Staple ingredients
+%flour%,like,Staple ingredients
+semolina,in,Staple ingredients
+eggs,in,Proteins
+%chicken%,like,Proteins
+%meat%,like,Proteins
+%lamb%,like,Proteins
+%veal%,like,Proteins
+%fish%,like,Proteins
+labaneh,in,Proteins
+yogurt,in,Proteins
+%milk%,like,Proteins
+apples,in,Fruit/vegetables
+bananas,in,Fruit/vegetables
+oranges,in,Fruit/vegetables
+lemons,in,Fruit/vegetables
+tomatoes,in,Fruit/vegetables
+cucumbers,in,Fruit/vegetables
+eggplants,in,Fruit/vegetables
+cauliflower,in,Fruit/vegetables
+%onions%,like,Fruit/vegetables
+potatoes,in,Fruit/vegetables
+potato,in,Fruit/vegetables
+zucchinis,in,Fruit/vegetables
+%pepper%,like,Fruit/vegetables
+%oil%,like,Staple ingredients
+%sugar%,like,Staple ingredients
+%salt%,like,Other food items
+cheese,in,Other food items
+tea,in,Other food items
+%yeast%,like,Other food items
+%paste%,like,Other food items
+%coffee%,like,Other food items
+%gasoline%,like,Fuel
+diesel,in,Fuel
+%cylinder%,like,Fuel
+%fuel%,like,Fuel
+%water%,like,Water
+%cigarette%,like,Cigarettes
+%travel%,like,Travel

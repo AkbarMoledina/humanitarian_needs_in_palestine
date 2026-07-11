@@ -1,0 +1,37 @@
+version: 2
+
+seeds:
+  - name: commodity_categories
+    description: "Reference table for mapping commodity names to nutritional/food categories. Used by dim_commodity to categorize commodities consistently."
+    columns:
+      - name: commodity_pattern
+        description: "Pattern (exact match or wildcard) to match against commodity_name"
+        tests:
+          - not_null
+
+      - name: match_type
+        description: "How to match the pattern: 'like' for wildcard matching (%), 'in' for exact match"
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['like', 'in']
+
+      - name: commodity_category
+        description: "The category to assign when pattern matches"
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - Carbohydrates
+                  - Proteins
+                  - Fruit/vegetables
+                  - Staple ingredients
+                  - Other food items
+                  - Cigarettes
+                  - Water
+                  - Travel
+                  - Fuel
+
+
