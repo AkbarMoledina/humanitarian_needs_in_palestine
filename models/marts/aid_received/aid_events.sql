@@ -6,11 +6,11 @@ SELECT
     dd.week_of_year,
     dd.is_ceasefire,
     f.number_of_trucks,
-    f.items,
-    f.cargo_category,
+    dcargo.items,
+    dcargo.cargo_category,
     f.quantity,
     f.units,
-    f.donation_type,
+    dcargo.donation_type,
     f.crossing_id,
     dc.crossing_name,
     f.data_period,
@@ -20,4 +20,6 @@ LEFT JOIN {{ ref('dim_date') }} dd
     ON f.date_id = dd.date_id
 LEFT JOIN {{ ref('dim_crossing') }} dc
     ON f.crossing_id = dc.crossing_id
+LEFT JOIN {{ ref('dim_cargo') }} dcargo
+    ON f.cargo_id = dcargo.cargo_id
 ORDER BY dd.full_date

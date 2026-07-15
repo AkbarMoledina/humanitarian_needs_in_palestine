@@ -18,9 +18,10 @@ month_spine AS (
 ),
 
 cargo_categories AS (
-    SELECT DISTINCT cargo_category
-    FROM {{ ref('fct_aid_received') }}
-    WHERE cargo_category IS NOT NULL
+    SELECT DISTINCT dcargo.cargo_category
+    FROM {{ ref('fct_aid_received') }} f
+    JOIN {{ ref('dim_cargo') }} dcargo ON f.cargo_id = dcargo.cargo_id
+    WHERE dcargo.cargo_category IS NOT NULL
 ),
 
 cross_join AS (
@@ -38,13 +39,13 @@ monthly_trucks AS (
         dd.year,
         dd.month,
         dd.month_name,
-        f.cargo_category,
+        dcargo.cargo_category,
         SUM(f.number_of_trucks) AS monthly_truck_count
     FROM {{ ref('fct_aid_received') }} f
-    JOIN {{ ref('dim_date') }} dd
-      ON f.date_id = dd.date_id
+    JOIN {{ ref('dim_date') }} dd ON f.date_id = dd.date_id
+    JOIN {{ ref('dim_cargo') }} dcargo ON f.cargo_id = dcargo.cargo_id
     WHERE f.number_of_trucks IS NOT NULL
-    GROUP BY dd.year, dd.month, dd.month_name, f.cargo_category
+    GROUP BY dd.year, dd.month, dd.month_name, dcargo.cargo_category
 )
 
 SELECT
