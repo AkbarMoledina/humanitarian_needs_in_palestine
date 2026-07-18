@@ -16,5 +16,6 @@ SELECT
     LOWER(TRIM(Crossing)) AS crossing,
     "Destination Recipient/ Partner" AS recipient,
     "Data Period" AS data_period,
-    "Last Edited Time"::TIMESTAMP AS last_edited
+    "Last Edited Time"::TIMESTAMP AS last_edited,
+    CURRENT_TIMESTAMP AS loaded_at
 FROM source

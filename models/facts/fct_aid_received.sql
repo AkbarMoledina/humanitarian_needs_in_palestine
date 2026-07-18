@@ -1,3 +1,9 @@
+{{ config(
+    materialized='incremental',
+    incremental_strategy='delete+insert',
+    unique_key=['aid_event_id']
+) }}
+
 SELECT
     s.id AS aid_event_id,
     STRFTIME(s.received_date, '%Y%m%d')::INT AS date_id,
@@ -7,7 +13,8 @@ SELECT
     s.units,
     dc.crossing_id,
     s.data_period,
-    s.last_edited
+    s.last_edited,
+    CURRENT_TIMESTAMP AS processed_date
 FROM {{ ref('stg_aid_received') }} s
 LEFT JOIN {{ ref('dim_crossing') }} dc
 ON s.crossing = LOWER(TRIM(dc.crossing_name))
@@ -16,3 +23,7 @@ ON s.items = dcargo.items
 AND s.cargo_category = dcargo.cargo_category
 AND s.donation_type = dcargo.donation_type
 WHERE status = 'Received'
+
+{% if is_incremental() %}
+  AND s.last_edited > (SELECT MAX(last_edited) FROM {{ this }})
+{% endif %}

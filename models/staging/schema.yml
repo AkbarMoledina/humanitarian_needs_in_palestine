@@ -1,0 +1,79 @@
+version: 2
+
+models:
+  - name: stg_commodity_prices
+    description: "Staging model for raw commodity prices. Normalises commodity name and units and casts price/date types."
+    columns:
+      - name: commodity_name
+        description: "Commodity name (lower, trimmed, units fixed)."
+        tests:
+          - not_null
+      - name: unit_amount
+        description: "Standardised unit amount (e.g., 'kg', 'L')."
+        tests:
+          - not_null
+      - name: price_date
+        description: "Date of the price observation."
+        tests:
+          - not_null
+      - name: price
+        description: "Observed price."
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min: 0
+              max: 1000000
+      - name: avg_price_before_oct7
+        description: "Baseline/average price before 7 Oct 2023."
+        tests:
+          - dbt_utils.accepted_range:
+              min: 0
+              max: 1000000
+
+  - name: stg_aid_received
+    description: "Staging model for aid received logs. Standardises fields and casts dates/timestamps."
+    columns:
+      - name: id
+        description: "Source identifier for the aid event."
+        tests:
+          - not_null
+          - unique
+      - name: received_date
+        description: "Date the aid was received."
+        tests:
+          - not_null
+      - name: number_of_trucks
+        description: "Number of trucks for the event."
+        tests:
+          - dbt_utils.accepted_range:
+              min: 0
+              max: 10000
+      - name: status
+        description: "Status of the aid (e.g., Received, In Transit)."
+        tests:
+          - not_null
+      - name: last_edited
+        description: "Source last-edited timestamp, used to detect updates."
+        tests:
+          - not_null
+
+  - name: stg_funding
+    description: "Staging model for funding and requirements data."
+    columns:
+      - name: year
+        description: "Year of the funding/reporting period."
+        tests:
+          - not_null
+      - name: requirements_usd
+        description: "Requirements value in USD."
+        tests:
+          - dbt_utils.accepted_range:
+              min: 0
+              max: 99999999999
+      - name: funding_usd
+        description: "Funding amount in USD."
+        tests:
+          - dbt_utils.accepted_range:
+              min: 0
+              max: 99999999999
+
