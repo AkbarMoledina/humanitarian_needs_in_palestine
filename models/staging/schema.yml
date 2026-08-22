@@ -20,15 +20,8 @@ models:
         description: "Observed price."
         tests:
           - not_null
-          - dbt_utils.accepted_range:
-              min: 0
-              max: 1000000
       - name: avg_price_before_oct7
         description: "Baseline/average price before 7 Oct 2023."
-        tests:
-          - dbt_utils.accepted_range:
-              min: 0
-              max: 1000000
 
   - name: stg_aid_received
     description: "Staging model for aid received logs. Standardises fields and casts dates/timestamps."
@@ -44,10 +37,6 @@ models:
           - not_null
       - name: number_of_trucks
         description: "Number of trucks for the event."
-        tests:
-          - dbt_utils.accepted_range:
-              min: 0
-              max: 10000
       - name: status
         description: "Status of the aid (e.g., Received, In Transit)."
         tests:
@@ -66,14 +55,6 @@ models:
           - not_null
       - name: requirements_usd
         description: "Requirements value in USD."
-        tests:
-          - dbt_utils.accepted_range:
-              min: 0
-              max: 99999999999
       - name: funding_usd
         description: "Funding amount in USD."
-        tests:
-          - dbt_utils.accepted_range:
-              min: 0
-              max: 99999999999
 

@@ -15,13 +15,13 @@ INNER JOIN {{ ref('dim_commodity') }} d
     AND s.unit_amount = d.unit_amount
 
 {% if is_incremental() %}
-  WHERE s.price_date > (SELECT MAX(date_id) FROM {{ this }})
+  WHERE STRFTIME(s.price_date, '%Y%m%d')::INT > (SELECT COALESCE(MAX(date_id), 0) FROM {{ this }})
 {% endif %}
 
 {% if not is_incremental() %}
 UNION ALL
 
-SELECT DISTINCT
+SELECT
     d.commodity_id,
     20231001 AS date_id,
     avg_price_before_oct7 AS price,

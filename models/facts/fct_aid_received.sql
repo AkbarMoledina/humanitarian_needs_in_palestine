@@ -25,5 +25,5 @@ AND s.donation_type = dcargo.donation_type
 WHERE status = 'Received'
 
 {% if is_incremental() %}
-  AND s.last_edited > (SELECT MAX(last_edited) FROM {{ this }})
+  AND s.last_edited > (SELECT COALESCE(MAX(last_edited), CAST('1970-01-01' AS TIMESTAMP)) FROM {{ this }})
 {% endif %}
