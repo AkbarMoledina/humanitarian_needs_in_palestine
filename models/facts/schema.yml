@@ -3,15 +3,21 @@ version: 2
 models:
   - name: fct_aid_received
     description: "Fact table of aid received"
+    config:
+      contract:
+        enforced: true
+      on_schema_change: fail
 
     columns:
     - name: aid_event_id
+      data_type: BIGINT
       description: "Primary key for the aid event"
       tests:
         - not_null
         - unique
 
     - name: date_id
+      data_type: INTEGER
       description: "Foreign key to dim_date"
       tests:
         - not_null
@@ -24,15 +30,8 @@ models:
               min_value: 20231001
               inclusive: true
 
-    - name: crossing_id
-      description: "Foreign key to dim_crossing"
-      tests:
-        - relationships:
-            arguments:
-              to: ref('dim_crossing')
-              field: crossing_id
-
     - name: number_of_trucks
+      data_type: INTEGER
       description: "Number of trucks in the aid event"
       tests:
         - not_null
@@ -41,9 +40,58 @@ models:
               min_value: 0
               inclusive: false
 
+    - name: cargo_id
+      data_type: VARCHAR
+      description: "Foreign key to dim_cargo"
+      tests:
+        - not_null
+        - relationships:
+            arguments:
+              to: ref('dim_cargo')
+              field: cargo_id
+
+    - name: quantity
+      data_type: INTEGER
+      description: "Quantity of cargo received"
+      tests:
+        - not_null
+        - dbt_utils.accepted_range:
+            arguments:
+              min_value: 0
+              inclusive: true
+
+    - name: units
+      data_type: VARCHAR
+      description: "Units of measurement for the cargo quantity"
+
+    - name: crossing_id
+      data_type: VARCHAR
+      description: "Foreign key to dim_crossing"
+      tests:
+        - relationships:
+            arguments:
+              to: ref('dim_crossing')
+              field: crossing_id
+
+    - name: data_period
+      data_type: VARCHAR
+      description: "Data period of the aid event"
+
+    - name: last_edited
+      data_type: TIMESTAMP
+      description: "Timestamp of the last edit to the aid event record"
+
+    - name: processed_date
+      data_type: TIMESTAMPTZ
+      description: "Timestamp with time zone of when the record was processed"
+
 
   - name: fct_commodity_prices
     description: "Fact table of commodity prices over time, with baseline comparison"
+    config:
+      contract:
+        enforced: true
+      on_schema_change: fail
 
     tests:
       - dbt_utils.unique_combination_of_columns:
@@ -54,6 +102,7 @@ models:
 
     columns:
       - name: commodity_id
+        data_type: VARCHAR
         description: "Foreign key to dim_commodity"
         tests:
           - not_null
@@ -63,6 +112,7 @@ models:
                 field: commodity_id
 
       - name: date_id
+        data_type: INTEGER
         description: "Foreign key to dim_date"
         tests:
           - not_null
@@ -72,6 +122,7 @@ models:
                 field: date_id
 
       - name: price
+        data_type: DOUBLE
         description: "Commodity price on the given date"
         tests:
           - not_null
@@ -79,3 +130,7 @@ models:
               arguments:
                 min_value: 0
                 inclusive: false
+
+      - name: processed_date
+        data_type: TIMESTAMPTZ
+        description: "Timestamp with time zone of when the record was processed"
