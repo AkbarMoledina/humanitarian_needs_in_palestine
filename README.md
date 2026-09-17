@@ -15,8 +15,8 @@ Reports can be found in the [analyses](https://github.com/AkbarMoledina/humanita
 ## Key Achievements
 
 - Built a robust analytics engineering pipeline using dbt and DuckDB
-- Created a clean, reusable star-schema with multiple fact, dimension (SCD Type 1) and bridging tables
-- Implemented 40+ dbt tests to ensure data quality throughout the pipeline
+- Created a clean, reusable star-schema with multiple fact, dimension and bridging tables
+- Implemented 40+ dbt tests and enforced data contracts to ensure data quality throughout the pipeline
 - Preparing analysis-ready mart tables to support downstream exploration and storytelling
 
 This repository is structured to reflect modern analytics engineering best practices, separating raw ingestion, staging, core facts/dimensions, and analytics marts.
@@ -32,11 +32,11 @@ This repository is structured to reflect modern analytics engineering best pract
 # 🗂️ Data Model Overview
 ## Raw Layer
 
-Contains minimally transformed source data, loaded via Python scripts.
+Contains minimally transformed source data, loaded via Python scripts into DuckDB.
 
 ## Staging Layer
 
-Cleans and standardises raw data:
+Cleans and standardises raw data, materialised as views:
 
 - Normalises commodity names
 - Extracts and standardises unit amounts
@@ -50,25 +50,30 @@ Example:
 
 ## Core Models (Facts & Dimensions)
 
+Fact tables are loaded incrementally based on the delete+insert incremental strategy, to prevent needed to reload the entire tables every time the pipelines are run.
+All dimension tables feature a surrogate key for stability and joins, other that dim_date which uses a generated date_id from the date.
+
+### dim_cargo
+- One row per item
+
 ### dim_commodity
 
 - One row per unique commodity + unit
-- Uses a surrogate key for stability and joins
 
 ### dim_crossing
 
 - One row per crossing
-- Uses a surrogate key for stability and joins
 
 ### dim_date
 
 - One row per date
 - Uses date id for stability and joins
+- Generated as a date spine spanning from the first date to the last date of the input data
+- Contains is_ceasefire flag to help differentiate hostilities and ceasefires for analysis
 
 ### dim_organisation
 
 - One row per organisation
-- Uses a surrogate key for stability and joins
 
 ### bridge_organisation
 
@@ -77,12 +82,14 @@ Example:
 
 ### fct_aid_received
 
-- One row per cargo
-- Includes cargo description, category and quantity 
+- One row per aid event
+- Contains foreign keys to dim_cargo, dim_crossing and dim_date
+- Includes donation_type as a degenerate dimension
 
 ### fct_commodity_prices_gaza
 
 - One row per commodity, unit, and date
+- Contains foreign keys to dim_commodity and dim_date
 - Includes both observed monthly prices and a synthetic baseline price
 
 A synthetic baseline price dated 2023-10-01 is included to support before/after comparisons.
