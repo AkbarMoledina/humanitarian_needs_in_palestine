@@ -131,6 +131,7 @@ dbt tests are applied to key models, including:
 - Accepted value tests for fields that a restricted to certain values or ranges
 - Custom tests for price ratios and date consistency
 - Referential integrity between fact and dimension tables
+- Implemented data contracts on fact tables to enforce column names and data types for downstream stability 
 
 ## 📁 Project Structure
 
