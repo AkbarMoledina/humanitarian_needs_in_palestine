@@ -10,7 +10,7 @@ SELECT
     dcargo.cargo_category,
     f.quantity,
     f.units,
-    dcargo.donation_type,
+    f.donation_type,
     f.crossing_id,
     dc.crossing_name,
     f.data_period,

@@ -50,6 +50,10 @@ models:
               to: ref('dim_cargo')
               field: cargo_id
 
+    - name: donation_type
+      data_type: VARCHAR
+      description: "Type of donation"
+
     - name: quantity
       data_type: INTEGER
       description: "Quantity of cargo received"
