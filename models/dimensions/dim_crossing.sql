@@ -4,5 +4,6 @@ SELECT
     border_zone,
     bordering_country,
     latitude,
-    longitude
+    longitude,
+    ST_POINT(longitude, latitude) AS location
 FROM {{ ref('crossing_seed') }}

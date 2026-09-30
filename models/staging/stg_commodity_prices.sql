@@ -7,8 +7,8 @@ cleaned AS (
         LOWER(TRIM("commodity name (english)")) AS commodity_name_raw,
         LOWER(TRANSLATE("amount (english)", '()', '')) AS unit_amount_raw,
         price_date::DATE AS price_date,
-        price::DECIMAL AS price,
-        ROUND("average price before 7 October 2023", 2) AS avg_price_before_oct7,
+        price::DECIMAL(10,2) AS price,
+        ROUND("average price before 7 October 2023", 2)::DECIMAL(10,2) AS avg_price_before_oct7,
         CURRENT_TIMESTAMP AS loaded_at
     FROM source
     WHERE price IS NOT NULL

@@ -126,7 +126,7 @@ models:
                 field: date_id
 
       - name: price
-        data_type: DOUBLE
+        data_type: DECIMAL(10,2)
         description: "Commodity price on the given date"
         tests:
           - not_null
